@@ -1,0 +1,37 @@
+# Progress Log
+Run: 80f1901c-298d-4711-a533-fd4a8e5db6d0
+Task: Ticket B1 - Dashboard only (US-004)
+Started: 2026-02-16T16:12:00Z
+
+## Codebase Patterns
+- Dashboard UI renderer stays framework-agnostic and is tested through linkedom, so new UI behaviors should be expressed via pure functions plus DOM tests.
+
+---
+
+## 2026-02-16T15:59:31Z - US-004: Render MVP dashboard UI with cards, tables, and clear empty states
+- Added `src/dashboard/ui.ts` to server-render the dashboard page with metric cards, data tables, empty-state messaging, and a client-side refresh action that posts to `/dashboard/refresh` before reloading.
+- Extended the dashboard HTTP server to serve the new UI on `GET /` (plus updated README) and added Vitest coverage for the HTML endpoint alongside DOM-focused tests powered by `linkedom`.
+- Files changed: package.json, package-lock.json, README.md, src/dashboard/route.ts, src/dashboard/ui.ts, tests/dashboard-server.test.ts, tests/dashboard-ui.test.ts, progress-80f1901c-298d-4711-a533-fd4a8e5db6d0.txt.
+- **Learnings:** Keeping the UI renderer pure makes it easy to test via lightweight DOM parsers and plug into both the HTML endpoint and future CLIs without additional build tooling; the refresh UX stays reliable by reusing the existing POST action then reloading to show cached data.
+---
+
+## 2026-02-16T16:16:21Z - US-004: Render MVP dashboard UI with cards, tables, and clear empty states
+- Exposed dataset status/empty reason metadata via `data-*` attributes on the status chip and empty-state container so UI tests can assert missing vs. empty flows clearly.
+- Extended dashboard UI tests to assert the metadata for missing datasets, ensuring the empty-state messaging remains accessible.
+- Files changed: src/dashboard/ui.ts, tests/dashboard-ui.test.ts, progress-80f1901c-298d-4711-a533-fd4a8e5db6d0.txt.
+- **Learnings:** Surfacing machine-readable attributes on rendered DOM makes it easier to cover UX requirements in Vitest without spinning up an HTTP server.
+---
+
+## 2026-02-16T16:33:00Z - US-005: Protect existing behavior and add ticket-level regression coverage
+- Added regression suites that exercise the PropertyData export entrypoint (live + mock fallback) and assert the dashboard route never leaves the local filesystem, ensuring Ticket B1 remains read-only/local-only.
+- Documented the dashboard refresh workflow so maintainers know how to generate CSV exports, launch the UI, and trigger refreshes after updating the files.
+- Files changed: README.md, tests/dashboard-regression.test.ts, tests/propertydata-regression.test.ts, progress-80f1901c-298d-4711-a533-fd4a8e5db6d0.txt.
+- **Learnings:** PropertyData flows are easiest to regression-test end-to-end by stubbing global `fetch` and writing to a temp dir rather than mocking internal helpers; dashboard route tests can guard against future API calls by spying on `globalThis.fetch`.
+---
+
+## 2026-02-16T18:54:00Z - US-005: Protect existing behavior and add ticket-level regression coverage
+- Added a documented regression checklist in README.md covering the CSV refresh workflow plus the exact commands QA/dev must run (`npm test`, `npm run build`, and the dashboard launch/refresh flow).
+- Created `tests/readme-regression.test.ts` to lock the documentation in place so future edits cannot silently drop the refresh guidance or regression commands.
+- Files changed: README.md, tests/readme-regression.test.ts, progress-80f1901c-298d-4711-a533-fd4a8e5db6d0.txt.
+- **Learnings:** Guarding critical runbooks with tiny content tests is cheap insurance—docs regressions are now caught in CI alongside the code regressions.
+---

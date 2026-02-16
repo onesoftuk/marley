@@ -1,0 +1,961 @@
+source,outcode,sold_date,address,postcode,price,bedrooms,tenure,sale_class,lat,lng,ingest_ts
+propertydata/sold-prices,SP7,2025-12-19,"7, Barton Hill, SP7 8DQ",SP7 8DQ,300000,,freehold,old_stock,51.0077726,-2.1937926,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-18,"4, Campion Close, Wyke, SP8 4UG",SP8 4UG,164000,,freehold,old_stock,51.0401027,-2.2877751,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-18,"18, New Close, Bourton, SP8 5DL",SP8 5DL,227500,,freehold,old_stock,51.075798,-2.3231206,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-17,"Lyndum, Penn Hill, Bedchester, SP7 0JR",SP7 0JR,872500,,freehold,old_stock,50.9559884,-2.2122699,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-16,"4a, Ten Acres, SP7 8PP",SP7 8PP,190000,,freehold,old_stock,51.0092594,-2.18691,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-16,"11, Savoy Court, SP7 8BN",SP7 8BN,255000,,leasehold,old_stock,51.0060157,-2.2002696,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-16,"3, St Johns Close, Donhead St Mary, SP7 9NB",SP7 9NB,410000,,freehold,old_stock,51.0033122,-2.140714,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-12,"46, The Meadows, SP8 4SP",SP8 4SP,184000,,freehold,old_stock,51.0319691,-2.268616,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-12,"16, Cresscombe Close, Peacemarsh, SP8 4GS",SP8 4GS,200000,,freehold,old_stock,51.046208,-2.2813492,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-12,"Rose Ella, Shaftesbury Road, East Knoyle, SP3 6AR",SP3 6AR,540000,,freehold,old_stock,51.0677443,-2.1723743,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-12,"Elm House, Gauns Court, East Knoyle, SP3 6DF",SP3 6DF,740000,,freehold,old_stock,51.0703482,-2.1704471,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-12,"The Willows, Teffont Evias, SP3 5RE",SP3 5RE,982500,,freehold,old_stock,51.0843913,-2.0174098,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-11,"1, Alice Combes Lane, Tisbury, SP3 6GZ",SP3 6GZ,609000,,freehold,old_stock,51.0680482,-2.0844129,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-10,"4, Allen Road, SP7 8GB",SP7 8GB,274345,,freehold,old_stock,51.0020731,-2.1766829,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-08,"13, Denham Drive, Guys Marsh, SP7 0AJ",SP7 0AJ,150000,,freehold,old_stock,50.9826036,-2.2216415,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-05,"7, Casterbridge Way, SP8 4FG",SP8 4FG,198500,,freehold,old_stock,51.0465101,-2.2836681,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-04,"Carriers Court, 1, High Street, Shrewton, SP3 4BZ",SP3 4BZ,257500,,freehold,old_stock,51.1964681,-1.9023065,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-03,"5, Dry Lane, SP8 5DP",SP8 5DP,425000,,freehold,old_stock,51.0368134,-2.2995873,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-03,"Flat 3, The Old Granary, Barton Hill, SP7 8DQ",SP7 8DQ,122500,,leasehold,old_stock,51.0079065,-2.1935956,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-03,"Furlong House, High Street, Shrewton, SP3 4DD",SP3 4DD,557000,,freehold,old_stock,51.1982567,-1.9019181,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-02,"10, Ridgeway Road, SP8 4GH",SP8 4GH,240000,,freehold,old_stock,51.0457941,-2.2813898,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-02,"39, Marlott Road, SP8 4FA",SP8 4FA,260000,,freehold,old_stock,51.0474665,-2.282641,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-12-02,"Sunnyside, Shaftesbury Road, SP8 4LJ",SP8 4LJ,325000,,freehold,old_stock,51.0330493,-2.2620901,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-12-02,"16, Vale View, SP7 8TJ",SP7 8TJ,472500,,freehold,old_stock,51.0172311,-2.1904247,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-12-01,"12, Morrison Avenue, Tisbury, SP3 6GX",SP3 6GX,670000,,freehold,old_stock,51.0681552,-2.0865158,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"9, Cypress Way, SP8 4BY",SP8 4BY,170000,,freehold,old_stock,51.0401338,-2.2783432,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"14, Roseberry Gardens, SP8 4RG",SP8 4RG,225000,,freehold,old_stock,51.0443496,-2.2775466,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"The Old Stables, Station Road, SP8 4QA",SP8 4QA,270000,,freehold,old_stock,51.0346869,-2.2731483,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"Lane End, Lydfords Lane, SP8 4NJ",SP8 4NJ,364000,,freehold,old_stock,51.037608,-2.2920106,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"Laurenti, Rolls Bridge, SP8 4BB",SP8 4BB,380000,,freehold,old_stock,51.0399978,-2.2821736,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-28,"Japonica Cottage, Kings Court Road, SP8 4LD",SP8 4LD,400000,,freehold,old_stock,51.0343593,-2.2624823,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-28,"111, Blackmore Road, SP7 8RL",SP7 8RL,231500,,freehold,old_stock,51.0124807,-2.1824516,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-28,"8, Angel Lane, SP7 8DF",SP7 8DF,290000,,freehold,old_stock,51.0075509,-2.1943665,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-28,"Apple Cottage, Lower Wincombe Lane, Donhead St Mary, SP7 9DB",SP7 9DB,335000,,freehold,old_stock,51.0210276,-2.147603,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-28,"4, Thomas Hardy Drive, SP7 8SP",SP7 8SP,440000,,freehold,old_stock,51.0080591,-2.1831867,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-28,"Wardour Cottage, Watery Lane, Donhead St Mary, SP7 9DF",SP7 9DF,637500,,freehold,old_stock,51.0180508,-2.1393897,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-28,"4, Alexandra Terrace, Tisbury, SP3 6QA",SP3 6QA,400000,,freehold,old_stock,51.0697766,-2.0845406,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-27,"16, Station Road, Tisbury, SP3 6JR",SP3 6JR,252000,,freehold,old_stock,51.0620832,-2.0796797,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-26,"Glenton, Wavering Lane West, SP8 4NR",SP8 4NR,487500,,freehold,old_stock,51.0414493,-2.2896211,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-25,"1, Primrose Close, Wyke, SP8 4TX",SP8 4TX,270000,,freehold,old_stock,51.0411447,-2.2879558,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-25,"8, Sorrel Way, SP8 4TP",SP8 4TP,422500,,freehold,old_stock,51.0399982,-2.2914763,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-25,"22, Freame Way, SP8 4RA",SP8 4RA,560000,,freehold,old_stock,51.0334924,-2.2892698,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-25,"30, Meadway, Shrewton, SP3 4HE",SP3 4HE,550000,,freehold,old_stock,51.1885664,-1.8992975,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-25,"Riversdale, High Street, Fovant, SP3 5JL",SP3 5JL,735000,,freehold,old_stock,51.0574042,-1.9937009,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-24,"Old Wincombe Farm, Wincombe Lane, SP7 8QF",SP7 8QF,690000,,freehold,old_stock,51.0170204,-2.1879817,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-21,"Coopers Forge, Milton On Stour, SP8 5PZ",SP8 5PZ,160000,,freehold,old_stock,51.0563938,-2.2886355,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-21,"45, Palace Road, SP8 4PQ",SP8 4PQ,260000,,freehold,old_stock,51.0358225,-2.2650381,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-21,"21, Great Ground, SP7 8FE",SP7 8FE,280000,,freehold,old_stock,51.0111868,-2.1828742,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-21,"3, Hoeller Close, SP7 8FQ",SP7 8FQ,325000,3,freehold,old_stock,51.0083731,-2.1811686,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-21,"28, Gower Road, SP7 8RU",SP7 8RU,417500,,freehold,old_stock,51.0063082,-2.182139,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-21,"Cann Farm, Cann, SP7 0EF",SP7 0EF,1350000,,freehold,old_stock,50.9989897,-2.1800464,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-21,"8, The Butts, Shrewton, SP3 4LD",SP3 4LD,215000,,freehold,old_stock,51.1976003,-1.9043385,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-21,"3, West Farm Cottages, Fovant, SP3 5LJ",SP3 5LJ,387000,,freehold,old_stock,51.053028,-1.9980661,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-20,"41, Jay Walk, SP8 4GY",SP8 4GY,127500,,leasehold,old_stock,51.0325365,-2.2636045,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-19,"Castle Hill House, Bimport, SP7 8AX",SP7 8AX,510000,,freehold,old_stock,51.0057721,-2.2008097,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-19,"The Old Barn, Sutton Mandeville, SP3 5NG",SP3 5NG,930000,,freehold,old_stock,51.0544536,-2.0309383,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-18,"22, Anstee Road, SP7 8GT",SP7 8GT,205000,2,freehold,old_stock,51.0084528,-2.1817958,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-18,"4, Park Houses, East Knoyle, SP3 6AN",SP3 6AN,290000,,freehold,old_stock,51.0706526,-2.1713616,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-17,"49, Newtown, SP3 6NY",SP3 6NY,330000,,freehold,old_stock,51.0601134,-2.1224063,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-14,"37, Oake Woods, SP8 4QS",SP8 4QS,150000,,freehold,old_stock,51.0348377,-2.2742906,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-14,"15, Wiltshire Close, SP8 4LZ",SP8 4LZ,190000,2,freehold,old_stock,51.043701,-2.2820456,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-14,"24, Downsview Drive, SP8 4RL",SP8 4RL,230000,2,freehold,old_stock,51.046036,-2.2768175,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-14,"41, Maple Close, SP7 8RF",SP7 8RF,197000,,freehold,old_stock,51.0136566,-2.1874482,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-14,"8, Salisbury Street, SP7 8EJ",SP7 8EJ,220000,2,freehold,old_stock,51.0060785,-2.1937562,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-14,"St Nicholas Close, Dover Street, Stour Row, SP7 0QH",SP7 0QH,895000,,freehold,old_stock,50.9865365,-2.2684751,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-14,"Shooters Lodge, Shooters Lane, SP7 8EZ",SP7 8EZ,1712870,,freehold,old_stock,51.0053501,-2.1950361,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-13,"3, Burton Close, SP7 8SW",SP7 8SW,215000,2,freehold,old_stock,51.0077286,-2.1838459,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-13,"31, Maple Road, SP7 8FR",SP7 8FR,245000,3,freehold,old_stock,51.0068752,-2.1806171,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-13,"3, Badger Walk, SP7 8FY",SP7 8FY,405000,4,freehold,old_stock,51.0033079,-2.1807017,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-12,"1, Ash Close, SP7 8RA",SP7 8RA,290000,4,freehold,old_stock,51.0128019,-2.1856878,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-07,"43, Church View, SP8 4XE",SP8 4XE,249500,,freehold,old_stock,51.0364821,-2.2793921,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-07,"73, Queens Road, Tisbury, SP3 6JW",SP3 6JW,290000,4,freehold,old_stock,51.0656637,-2.0755087,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-06,"Wintergreen, Common Mead Avenue, SP8 4NB",SP8 4NB,365000,2,freehold,old_stock,51.0364258,-2.2808829,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-11-06,"Amick Cottage, 5, Long Cross, SP7 8QP",SP7 8QP,380000,,freehold,old_stock,51.0089324,-2.211831,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-11-04,"3, Weaveland Road, Tisbury, SP3 6HJ",SP3 6HJ,265000,2,freehold,old_stock,51.0657389,-2.0811759,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-03,"26, Marlott Road, SP8 4FA",SP8 4FA,237000,,freehold,old_stock,51.0477869,-2.2830362,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-03,"6, Sutton Close, SP8 4QN",SP8 4QN,330000,,freehold,old_stock,51.0367349,-2.283551,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-11-03,"Grosvenor, Wyke Road, SP8 4NG",SP8 4NG,451000,5,freehold,old_stock,51.0383951,-2.2858739,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-31,"6, Broad Acres, SP8 4SB",SP8 4SB,294000,2,freehold,old_stock,51.0456151,-2.2742765,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-31,"20, Legg Road, SP7 8GP",SP7 8GP,225000,2,freehold,old_stock,51.0041344,-2.1813182,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-31,"The Beeches, Sutton Mandeville, SP3 5NL",SP3 5NL,681500,,freehold,old_stock,51.0483306,-2.0284234,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-31,"Rectory Paddock, Little Langford, SP3 4NU",SP3 4NU,815000,4,freehold,old_stock,51.1291498,-1.9305112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-30,"5, Broad Acres, SP8 4SB",SP8 4SB,200000,2,freehold,old_stock,51.0460374,-2.2739753,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-30,"5, Coppice Street, SP7 8PD",SP7 8PD,280000,,freehold,old_stock,51.0062115,-2.1930039,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-29,"9, Cerne Avenue, SP8 4FW",SP8 4FW,252500,3,freehold,old_stock,51.0319921,-2.2578979,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-28,"Old School House, Tout Hill, SP7 8LX",SP7 8LX,832000,,freehold,old_stock,51.0071736,-2.2009404,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-27,"10, St Johns Close, Donhead St Mary, SP7 9NB",SP7 9NB,285000,2,freehold,old_stock,51.0033075,-2.1408221,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-24,"20, Weatherbury Road, SP8 4FE",SP8 4FE,230000,,freehold,old_stock,51.046231,-2.2825592,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-24,"6, Kingfisher Avenue, SP8 4GL",SP8 4GL,320000,4,freehold,old_stock,51.0307926,-2.2614642,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-24,"24, Imber Road, SP7 8RX",SP7 8RX,340000,,freehold,old_stock,51.0078944,-2.1838211,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-24,"20, Queens Road, Tisbury, SP3 6JN",SP3 6JN,255000,3,freehold,old_stock,51.0651848,-2.077911,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-23,"2, New Stud Cottages, Sandley, SP8 5DY",SP8 5DY,485000,,freehold,old_stock,51.0220359,-2.3289419,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-23,"98, Mount Pleasant, Tisbury, SP3 6JD",SP3 6JD,368000,3,freehold,old_stock,51.0611157,-2.0883332,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-23,"Church View, St Marys Road, Dinton, SP3 5HH",SP3 5HH,795000,3,freehold,old_stock,51.0852668,-1.9880918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-20,"19, Camelot Way, SP8 4SY",SP8 4SY,190000,2,freehold,old_stock,51.036909,-2.2907601,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-17,"Malt House, Stable 4, Bay Road, SP8 4EW",SP8 4EW,135000,,leasehold,old_stock,51.0427409,-2.2684203,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-16,"50, Sweetmans Road, SP7 8EH",SP7 8EH,152500,,freehold,old_stock,51.0127631,-2.1866729,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-15,"6, Maycroft, Bourton, SP8 5FR",SP8 5FR,440000,,freehold,old_stock,51.0774067,-2.3157343,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-15,"Riverside, Wavering Lane East, SP8 4NX",SP8 4NX,525000,4,freehold,old_stock,51.0430819,-2.2820199,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-15,"Nutbush, Compton Abbas, SP7 0NH",SP7 0NH,557720,,freehold,old_stock,50.9649452,-2.1856106,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-15,"Elbury House, Hawkcombe Lane, Compton Abbas, SP7 0NN",SP7 0NN,687500,3,freehold,old_stock,50.9643971,-2.1905961,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-14,"Cosynest, Upper Backway, Shrewton, SP3 4DE",SP3 4DE,342000,2,freehold,old_stock,51.1978563,-1.9005101,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-13,"4, Woodpecker Meadow, SP8 4GB",SP8 4GB,195000,2,freehold,old_stock,51.03047,-2.2616367,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-13,"10, Thurstin Way, SP8 4FN",SP8 4FN,325000,2,freehold,old_stock,51.0462461,-2.2756055,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-13,"43, Freame Way, SP8 4RA",SP8 4RA,405000,2,freehold,old_stock,51.0345371,-2.2900676,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-13,"5, Win Green View, SP7 8SR",SP7 8SR,270000,,freehold,old_stock,51.0080329,-2.1846299,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-13,"3, Bleax Close, East Orchard, SP7 0AU",SP7 0AU,335000,3,freehold,old_stock,50.964641,-2.2390947,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-13,"58, Church Street, Tisbury, SP3 6NH",SP3 6NH,500201,2,freehold,old_stock,51.0621305,-2.0810333,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-10,"1, Floramour Place, SP8 4BF",SP8 4BF,340000,4,freehold,old_stock,51.0393012,-2.2783323,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-10,"4, Parsons Pool, SP7 8AL",SP7 8AL,150000,1,leasehold,old_stock,51.0070184,-2.196726,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-10,"44, Vale View, SP7 8TJ",SP7 8TJ,324000,3,freehold,old_stock,51.0176279,-2.1903836,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-10,"3, St Johns Close, Tisbury, SP3 6PN",SP3 6PN,295000,3,freehold,old_stock,51.061074,-2.0836603,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-09,"18, Meadowcroft, SP8 4SR",SP8 4SR,85000,2,leasehold,old_stock,51.031924,-2.2707146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-09,"Flat 14, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,150000,2,leasehold,old_stock,51.039572,-2.2737747,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-09,"2, Church Street, West Stour, SP8 5RL",SP8 5RL,467500,6,freehold,old_stock,51.0028284,-2.3078362,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-09,"3, Meadow View, Winterbourne Stoke, SP3 4SS",SP3 4SS,270000,,freehold,old_stock,51.166081,-1.8923996,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-08,"Birchlea, Shepherds Hill, Buckhorn Weston, SP8 5HX",SP8 5HX,325000,2,freehold,old_stock,51.0262867,-2.3403018,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-08,"38, Blackmore Road, SP7 8RD",SP7 8RD,168000,1,freehold,old_stock,51.013449,-2.1841986,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-08,"2, Knapp Hollow, Tisbury, SP3 6DQ",SP3 6DQ,717000,3,freehold,old_stock,51.0628703,-2.0850275,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-06,"9, Church View, SP8 4XE",SP8 4XE,390000,,freehold,old_stock,51.0355039,-2.2793596,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-10-06,"9, Paradise Meadow, Tisbury, SP3 6DG",SP3 6DG,335000,3,freehold,old_stock,51.0623817,-2.0824447,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-03,"Mead Court, 6, Common Mead Lane, SP8 4ND",SP8 4ND,148000,,leasehold,old_stock,51.0366472,-2.2813881,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-03,"5, Regency Court, SP8 4TY",SP8 4TY,168250,2,freehold,old_stock,51.0374118,-2.2884461,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-03,"41, Claremont Avenue, SP8 4RH",SP8 4RH,245000,2,freehold,old_stock,51.0455872,-2.2752382,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-03,"5, Victoria Terrace, SP8 4BE",SP8 4BE,250000,,freehold,old_stock,51.0392448,-2.2783778,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-10-03,"65, Blackmore Road, SP7 8RD",SP7 8RD,97000,1,leasehold,old_stock,51.0130856,-2.1837459,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-01,"7, King Edmund Court, SP8 4DL",SP8 4DL,138000,,leasehold,old_stock,51.0397744,-2.2805815,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-01,"The Malthouse, Lodge 4, Bay Road, SP8 4EW",SP8 4EW,164000,,leasehold,old_stock,51.0427409,-2.2684203,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-10-01,"17, Pimpernel Court, SP8 4UW",SP8 4UW,190000,2,freehold,old_stock,51.0395964,-2.2886308,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-30,"5, Stour Meadows, SP8 4SG",SP8 4SG,412000,4,freehold,old_stock,51.0344825,-2.2838643,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-30,"Zig Zag View, East Melbury, SP7 0DR",SP7 0DR,335000,,freehold,old_stock,50.9869499,-2.1609934,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-27,"10, Elm Close, Motcombe, SP7 9HN",SP7 9HN,440000,,freehold,old_stock,51.0377918,-2.2218465,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-26,"10, Maple Way, SP8 4RR",SP8 4RR,218000,,freehold,old_stock,51.0355449,-2.2871328,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-26,"14, Barnaby Mead, SP8 4AL",SP8 4AL,365000,,freehold,old_stock,51.039572,-2.2737747,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-26,"32, Lane Side, SP7 8EA",SP7 8EA,202000,,freehold,old_stock,51.0108921,-2.1892095,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-26,"67, Maple Road, SP7 8FR",SP7 8FR,210000,,freehold,old_stock,51.0068734,-2.1806164,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-26,"76, Foxglove Crescent, SP7 8UF",SP7 8UF,351500,,freehold,new_build,51.0141273,-2.1834978,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-26,"53, St Georges Road, SP7 8NJ",SP7 8NJ,440000,4,freehold,old_stock,51.003387,-2.1867251,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-26,"Vista Cottage, Stour Row, SP7 0QF",SP7 0QF,700000,4,freehold,old_stock,50.9891976,-2.2566884,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-26,"Pear Tree Cottage, Shrewton, SP3 4JE",SP3 4JE,350000,2,freehold,old_stock,51.1936313,-1.905187,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-26,"Brookway, Tisbury Road, Fovant, SP3 5JT",SP3 5JT,612500,4,freehold,old_stock,51.0593848,-1.9970007,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-24,"17, Clarendon Close, Dinton, SP3 5HG",SP3 5HG,345000,3,freehold,old_stock,51.0840399,-1.9778921,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-22,"65, Sweetmans Road, SP7 8EH",SP7 8EH,245000,,freehold,old_stock,51.0128294,-2.1872132,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-19,"78, Maple Way, SP8 4RR",SP8 4RR,270000,3,freehold,old_stock,51.0355666,-2.287053,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-19,"3, Rookery Close, SP8 4LH",SP8 4LH,417000,3,freehold,old_stock,51.0332691,-2.2609501,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-18,"6, Clarendon Close, SP8 4NL",SP8 4NL,368000,,freehold,old_stock,51.0375668,-2.2927656,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-18,"5, Maycroft, Bourton, SP8 5FR",SP8 5FR,368000,,freehold,old_stock,51.07776,-2.3154244,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-18,"Motcombe Grange, 27, The Street, Motcombe, SP7 9HJ",SP7 9HJ,225000,,leasehold,old_stock,51.0343437,-2.2205531,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-16,"Flat 12, Nexus, Addison Close, SP8 4LR",SP8 4LR,90000,,leasehold,old_stock,51.0326065,-2.2708005,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-15,"18, Maple Road, SP7 8FR",SP7 8FR,260000,3,freehold,old_stock,51.0068757,-2.1806173,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-12,"130, Maple Way, SP8 4RR",SP8 4RR,235000,2,freehold,old_stock,51.0354768,-2.2852579,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-12,"36, Great Ground, SP7 8FF",SP7 8FF,245000,,freehold,old_stock,51.0115658,-2.1831388,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-12,"3, Indus Road, SP7 8FU",SP7 8FU,285000,4,freehold,old_stock,51.0077257,-2.1801302,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-12,"32, Fairlane, SP7 8RT",SP7 8RT,390000,,freehold,old_stock,51.0053981,-2.1858509,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-11,"Paynes Farm, High Street, Tilshead, SP3 4RZ",SP3 4RZ,643000,4,freehold,old_stock,51.2306944,-1.953669,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-10,"Devon Cottage, East Street, Bourton, SP8 5QU",SP8 5QU,495000,2,freehold,old_stock,51.0723491,-2.3286016,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-10,"Dovehayes, Mill Lane, Bourton, SP8 5DA",SP8 5DA,955000,5,freehold,old_stock,51.0764205,-2.3239752,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-09,"36, Greenacre Way, SP7 8FT",SP7 8FT,208000,3,freehold,old_stock,51.0026244,-2.1795455,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-08,"33, Honeyfields, SP8 4TN",SP8 4TN,305000,4,freehold,old_stock,51.0470947,-2.2780071,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-08,"15, Horsehill Place, Donhead St Mary, SP7 9EY",SP7 9EY,300000,3,freehold,old_stock,51.0028154,-2.1374916,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-09-05,"2, Foxglove Close, Wyke, SP8 4TW",SP8 4TW,525000,3,freehold,old_stock,51.0407309,-2.2855634,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-05,"74, Blackmore Road, SP7 8RL",SP7 8RL,165500,1,freehold,old_stock,51.0140161,-2.1860411,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-05,"The Old Telephone Exchange, The Mead, Fontmell Magna, SP7 0PH",SP7 0PH,200000,1,freehold,old_stock,50.9497265,-2.1912979,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-05,"Churchside, 2, Church Street, Tisbury, SP3 6AZ",SP3 6AZ,185000,2,leasehold,old_stock,51.0618543,-2.0797416,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-09-01,"Clare House, 27, 8, Deansleigh Park, SP7 8RP",SP7 8RP,115000,,leasehold,old_stock,51.0104745,-2.1843835,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-09-01,"Nadder Barn, 2, The Old Farm Yard, Tisbury, SP3 6NZ",SP3 6NZ,895000,,freehold,old_stock,51.063138,-2.079703,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-29,"32, Maple Close, SP7 8RF",SP7 8RF,205000,,freehold,old_stock,51.0135992,-2.1876154,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-29,"13, Fen Violet Alley, SP7 8UG",SP7 8UG,267000,2,freehold,old_stock,51.0135788,-2.1822385,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-29,"14, St Johns Close, Tisbury, SP3 6PN",SP3 6PN,240000,3,freehold,old_stock,51.0610902,-2.0846247,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-28,"1, Jesop Close, SP8 4SJ",SP8 4SJ,308000,3,freehold,old_stock,51.0371125,-2.2846464,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-28,"Rookside, Church Hill, Buckhorn Weston, SP8 5HS",SP8 5HS,850000,,freehold,old_stock,51.0206271,-2.3484819,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-28,"2, Wyndhams Place, Tisbury, SP3 6GT",SP3 6GT,540000,3,freehold,old_stock,51.0690577,-2.0859197,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-27,"17, Ridgeway Road, SP8 4GH",SP8 4GH,217000,2,freehold,old_stock,51.0454537,-2.2815864,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-26,"Cypress House, Turners Lane, SP8 4DS",SP8 4DS,320000,,freehold,old_stock,51.0395368,-2.2775164,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"6, Woodpecker Meadow, SP8 4GB",SP8 4GB,263000,3,freehold,old_stock,51.03047,-2.2616367,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"31, Lakeside Drive, SP8 4YN",SP8 4YN,280000,3,freehold,old_stock,51.031375,-2.2686651,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"28, Shreen Way, SP8 4EL",SP8 4EL,355000,,freehold,old_stock,51.0441245,-2.2721085,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"33, Windsor Lane, Wyke, SP8 4TG",SP8 4TG,365000,4,freehold,old_stock,51.0364372,-2.289577,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"Bramley, Queen Street, SP8 4DZ",SP8 4DZ,400000,4,freehold,old_stock,51.0401838,-2.2770886,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-22,"Holly Berry, Common Mead Lane, SP8 4RE",SP8 4RE,725000,4,freehold,old_stock,51.0319083,-2.2897812,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-22,"1, The Tynings, SP7 8QX",SP7 8QX,425000,,freehold,old_stock,50.9998083,-2.1855789,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-22,"The Bungalow, The Causeway, Tisbury, SP3 6LB",SP3 6LB,375000,,freehold,old_stock,51.0635613,-2.0806562,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-21,"9, Swallowfields, SP8 4US",SP8 4US,425000,3,freehold,old_stock,51.0484373,-2.2768311,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-21,"Russett Cottage, Terrace Lane, Stour Provost, SP8 5LS",SP8 5LS,525000,,freehold,old_stock,51.0003665,-2.2836701,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-21,"Motcombe Meadow, 7, The Street, Motcombe, SP7 9EZ",SP7 9EZ,445000,4,freehold,old_stock,51.0330702,-2.2189796,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-20,"7, Brookside, SP8 4HR",SP8 4HR,448000,3,freehold,old_stock,51.0434212,-2.2723507,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-20,"Charlton View, 1, Ash Tree Lane, Cann Common, SP7 0DN",SP7 0DN,795000,4,freehold,old_stock,50.9880189,-2.1629999,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-20,"Beech Trees, 51, Breach Lane, SP7 8LF",SP7 8LF,825000,,freehold,old_stock,51.0023081,-2.2051028,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-19,"Maytree Cottage, Wavering Lane West, SP8 4NR",SP8 4NR,590000,,freehold,old_stock,51.0416624,-2.2887388,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-19,"Meadowsweet Cottage, 6, Chantry Mews, Motcombe, SP7 9FA",SP7 9FA,750000,,freehold,old_stock,51.0259237,-2.2147962,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-18,"5, Bourne Way, SP8 4PF",SP8 4PF,221000,,freehold,old_stock,51.0444576,-2.276701,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-18,"Kiama, Bourton, SP8 5BJ",SP8 5BJ,380000,2,freehold,old_stock,51.0735723,-2.3281941,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-15,"Spring Rise, Bourton, SP8 5DB",SP8 5DB,517000,3,freehold,old_stock,51.0765837,-2.3187944,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-15,"39, Trinity Road, SP7 8FZ",SP7 8FZ,190000,2,freehold,old_stock,51.0054309,-2.1839024,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-15,"28, Beaufoy Close, SP7 8PT",SP7 8PT,190000,2,freehold,old_stock,51.0074338,-2.1855381,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-15,"3, St Lawrence Crescent, SP7 8EG",SP7 8EG,230000,3,freehold,old_stock,51.0128517,-2.1882966,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-15,"20, Anstee Road, SP7 8GT",SP7 8GT,230000,,freehold,old_stock,51.0084528,-2.1817953,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-15,"5, The Rickyard, SP7 8FW",SP7 8FW,270000,,freehold,old_stock,51.0023613,-2.1808355,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-14,"32, Greenstone Road, SP7 8FL",SP7 8FL,290000,4,freehold,old_stock,51.0059504,-2.1820458,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-14,"Fosse Cottage, Church Street, Fontmell Magna, SP7 0NY",SP7 0NY,375000,,freehold,old_stock,50.9523651,-2.1924114,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-14,"Post Office Cottage, High Street, Berwick St James, SP3 4TN",SP3 4TN,490000,,freehold,old_stock,51.1539833,-1.8992878,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-13,"Red Roofs, Shorts Green Lane, Motcombe, SP7 9PA",SP7 9PA,415000,2,freehold,old_stock,51.0320135,-2.2146709,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-13,"Listan, Field Way, Hindon, SP3 6DP",SP3 6DP,435000,3,freehold,old_stock,51.0944025,-2.1278819,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-12,"26, Cresscombe Close, Peacemarsh, SP8 4GS",SP8 4GS,260000,3,freehold,old_stock,51.0460264,-2.2809837,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-11,"49, Weatherbury Road, SP8 4FE",SP8 4FE,416500,4,freehold,old_stock,51.0462656,-2.2825241,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-11,"20b, Barnaby Mead, SP8 4AL",SP8 4AL,424000,,freehold,old_stock,51.039638,-2.2744091,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-11,"57, Church Street, Tisbury, SP3 6NH",SP3 6NH,475000,,freehold,old_stock,51.0620255,-2.0812057,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-08,"Royal Lodge, 5, Newbury, SP8 4WG",SP8 4WG,105000,,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-08,"39, Jeanneau Close, SP7 8PQ",SP7 8PQ,215000,2,freehold,old_stock,51.0072605,-2.1870767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-08,"15, Jeanneau Close, SP7 8PQ",SP7 8PQ,277500,,freehold,old_stock,51.0072605,-2.1870767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-08,"12, Pix Mead Gardens, SP7 8BZ",SP7 8BZ,405000,3,freehold,old_stock,51.0022272,-2.1827898,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-08,"4, Bimport, SP7 8AX",SP7 8AX,600000,,freehold,old_stock,51.0055448,-2.2003663,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-08,"Valentine Cottage, Milkwell, Donhead St Andrew, SP7 9LQ",SP7 9LQ,685000,,freehold,old_stock,51.0127072,-2.1209,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-08,"Bankside, Stapleford, SP3 4LN",SP3 4LN,450000,3,freehold,old_stock,51.1360465,-1.9011449,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-07,"3, Cale Way, SP8 4FT",SP8 4FT,280000,3,freehold,old_stock,51.0313693,-2.2575186,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-07,"10, Trinity Road, SP7 8FZ",SP7 8FZ,435000,4,freehold,old_stock,51.0054309,-2.1839024,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-07,"13, Grosvenor Road, SP7 8DP",SP7 8DP,500000,4,freehold,old_stock,51.0117894,-2.1924576,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-05,"127, Stanford Cottages, Semley, SP7 9AT",SP7 9AT,510000,,freehold,old_stock,51.0416887,-2.1520131,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-04,"Royal Lodge, 32, Newbury, SP8 4WG",SP8 4WG,120000,2,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-04,"19, The Green, East Knoyle, SP3 6BN",SP3 6BN,350000,,freehold,old_stock,51.0803792,-2.1850307,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-08-04,"Fair View, Salisbury Road, Shrewton, SP3 4EQ",SP3 4EQ,655000,4,freehold,old_stock,51.1891373,-1.902319,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-01,"Kingsmead Business Park, Unit 20, SP8 5FB",SP8 5FB,192000,,freehold,old_stock,51.0292521,-2.25527,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-08-01,"6, Victoria Road, SP8 4HY",SP8 4HY,240000,2,freehold,old_stock,51.0367695,-2.2692959,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-08-01,"32, Greenacre Way, SP7 8FT",SP7 8FT,221000,2,freehold,old_stock,51.0026244,-2.1795455,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-31,"20, Hyde Road, SP8 4BX",SP8 4BX,225000,,freehold,old_stock,51.041932,-2.2822909,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-31,"20, Shreen Way, SP8 4EL",SP8 4EL,320000,,freehold,old_stock,51.0437055,-2.2728983,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-31,"34, Anstee Road, SP7 8GT",SP7 8GT,257500,,freehold,old_stock,51.0086043,-2.1818232,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-31,"Melbury Cottage, Bedchester, SP7 0JU",SP7 0JU,621000,,freehold,old_stock,51.0037742,-2.2017026,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-31,"Bramble House, Raspberry Lane, SP7 8HN",SP7 8HN,990000,1,freehold,old_stock,51.0015759,-2.2046648,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-31,"Unit 20, Wincombe Business Park, SP7 9QJ",SP7 9QJ,1100000,,freehold,old_stock,51.0164054,-2.1851554,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-30,"65, Sylvan Way, SP8 4EQ",SP8 4EQ,220500,,freehold,old_stock,51.0455214,-2.2729556,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-30,"Cole Street Farm, Oak Cottage, Cole Street Lane, SP8 5JQ",SP8 5JQ,270000,,leasehold,old_stock,51.0238623,-2.2628237,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-30,"46, Vale View, SP7 8TJ",SP7 8TJ,333000,3,freehold,old_stock,51.0161552,-2.1912255,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-29,"Flat 31, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,119000,2,leasehold,old_stock,51.0386062,-2.2743459,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-29,"34, Lakeside Drive, SP8 4YN",SP8 4YN,260000,3,freehold,old_stock,51.0308289,-2.2679669,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-25,"25, Legg Road, SP7 8GP",SP7 8GP,224500,2,freehold,old_stock,51.0040922,-2.1813564,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-25,"90, Maple Road, SP7 8FR",SP7 8FR,235000,2,freehold,old_stock,51.0100876,-2.1813819,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-24,"The Steps, Green Drove, Fovant, SP3 5JG",SP3 5JG,645000,,freehold,old_stock,51.0605089,-1.987321,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-23,"7, Duncliffe View, East Stour, SP8 5JD",SP8 5JD,500000,,freehold,old_stock,51.0079623,-2.2849479,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-23,"33, Bimport, SP7 8AX",SP7 8AX,355000,,freehold,old_stock,51.0054153,-2.2013274,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-21,"Granary Cottage, Mill Lane, Stour Provost, SP8 5RX",SP8 5RX,540000,,freehold,old_stock,50.9921029,-2.2975383,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-18,"Royal Lodge, 33, Newbury, SP8 4WG",SP8 4WG,100000,,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-18,"4, Maycroft, Bourton, SP8 5FR",SP8 5FR,358000,,freehold,old_stock,51.07776,-2.3154244,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-18,"Carriers Court, 3, High Street, Shrewton, SP3 4BZ",SP3 4BZ,270000,,freehold,old_stock,51.1964199,-1.9021266,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-18,"Red Lion Cottage, The Street, East Knoyle, SP3 6AJ",SP3 6AJ,975000,,freehold,old_stock,51.0716106,-2.1709567,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-17,"45, Weatherbury Road, SP8 4FE",SP8 4FE,385000,,freehold,old_stock,51.0466633,-2.2817912,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-17,"50, Salisbury Street, SP7 8EJ",SP7 8EJ,370000,2,freehold,old_stock,51.0050394,-2.1922149,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-17,"Paddock Piece, Higher Blandford Road, SP7 8DA",SP7 8DA,625000,4,freehold,old_stock,51.0006413,-2.1819815,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-17,"4, Church Mead, Tisbury, SP3 6BF",SP3 6BF,256000,,freehold,old_stock,51.0605842,-2.0800851,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-15,"33, Beaufoy Close, SP7 8PT",SP7 8PT,275000,3,freehold,old_stock,51.0070417,-2.1858255,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-11,"6, Anstee Road, SP7 8GT",SP7 8GT,198000,,freehold,old_stock,51.0073387,-2.1816733,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-11,"Lyndale, London Road, Shrewton, SP3 4DH",SP3 4DH,250000,,freehold,old_stock,51.1995043,-1.8997221,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-11,"Brock House, Moor Hill, Fovant, SP3 5LB",SP3 5LB,565000,,freehold,old_stock,51.0623436,-2.0081545,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-10,"8, Buttons Avenue, SP7 8GS",SP7 8GS,253000,3,freehold,old_stock,51.0048447,-2.1801813,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-08,"Stourside, Wavering Lane East, SP8 4NX",SP8 4NX,625000,4,freehold,old_stock,51.0430819,-2.2820199,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-08,"8, Castle Gardens, SP7 8GG",SP7 8GG,650000,,freehold,old_stock,51.0043893,-2.2047235,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-07,"37, Palace Road, SP8 4PQ",SP8 4PQ,243000,,freehold,old_stock,51.0358908,-2.2651969,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-07,"37, Jay Walk, SP8 4GY",SP8 4GY,260000,,freehold,old_stock,51.0323446,-2.26347,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-07,"Moor Cottage, Moor Hill, Fovant, SP3 5LB",SP3 5LB,560000,,freehold,old_stock,51.0622537,-2.0085113,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-04,"26, Otter Springs, SP8 4GX",SP8 4GX,79000,2,leasehold,old_stock,51.0315762,-2.2615716,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-04,"6, New Close, Bourton, SP8 5DL",SP8 5DL,237000,,freehold,old_stock,51.075798,-2.3231206,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-04,"21, Front Street, East Stour, SP8 5LH",SP8 5LH,320000,,freehold,old_stock,51.0064409,-2.2735767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-04,"Field View Cottage, Head Lane, East Stour, SP8 5LN",SP8 5LN,325000,,freehold,old_stock,51.0058686,-2.2893512,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-04,"Forge Cottage, High Street, Bourton, SP8 5AT",SP8 5AT,785000,,freehold,old_stock,51.0781744,-2.3168861,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-04,"Cliffs Cottage, Middle Coombe, Donhead St Mary, SP7 9LX",SP7 9LX,895000,,freehold,old_stock,51.0048026,-2.1520633,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-04,"Coppice Barn, Higher Coombe, Donhead St Mary, SP7 9LR",SP7 9LR,1500000,,freehold,old_stock,51.0051348,-2.1591335,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-07-03,"19, Oake Woods, SP8 4QS",SP8 4QS,110000,,leasehold,old_stock,51.0340075,-2.2743823,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-07-03,"9, Shorts Green Courtyard, Motcombe, SP7 9NZ",SP7 9NZ,579000,,freehold,old_stock,51.0328483,-2.2158445,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-07-01,"Jesolo, Wylye Road, Hanging Langford, SP3 4NN",SP3 4NN,1150000,,freehold,old_stock,51.131194,-1.954862,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-30,"6, Melchester Close, SP8 4FB",SP8 4FB,250000,3,freehold,old_stock,51.0479776,-2.2813316,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-30,"39, Cherryfields, SP8 4TJ",SP8 4TJ,455000,,freehold,old_stock,51.0483535,-2.2748386,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-30,"Porch House, High Street, Bourton, SP8 5AT",SP8 5AT,474000,,freehold,old_stock,51.0784514,-2.3164804,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-30,"Motcombe Grange, 12, The Street, Motcombe, SP7 9HJ",SP7 9HJ,270000,,leasehold,old_stock,51.0343437,-2.2205531,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-30,"Yew Tree Cottage, Barkers Hill, Semley, SP7 9BH",SP7 9BH,795000,,freehold,old_stock,51.0292309,-2.1328784,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-30,"Penhill Farm, Bedchester, SP7 0JW",SP7 0JW,2260000,,freehold,old_stock,50.9557424,-2.2117096,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-27,"12, Horsefields, Peacemarsh, SP8 4UQ",SP8 4UQ,210000,,freehold,old_stock,51.0494671,-2.2792098,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-27,"Avalon, Tomlins Lane, SP8 4BH",SP8 4BH,265000,2,freehold,old_stock,51.0406739,-2.2781683,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-27,"16, Broad Acres, SP8 4SB",SP8 4SB,270000,,freehold,old_stock,51.0458046,-2.2736507,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-27,"Grace Cottage, Bay Lane, SP8 4ER",SP8 4ER,380000,,freehold,old_stock,51.0411002,-2.2705539,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-27,"9, Sweetmans Road, SP7 8EQ",SP7 8EQ,125000,3,freehold,old_stock,51.0115804,-2.188922,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-27,"58, Foxglove Crescent, SP7 8UF",SP7 8UF,252000,,freehold,new_build,51.0146523,-2.1832467,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-27,"Mowbray Lodge, Cherry Orchard, SP7 0PX",SP7 0PX,475000,,freehold,old_stock,50.9982806,-2.225844,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-27,"1, St Johns Hill, SP7 8HG",SP7 8HG,505000,,freehold,old_stock,51.0012784,-2.2035647,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-26,"3, Great Barton Hill Road, SP8 4AF",SP8 4AF,515000,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-25,"24, Primrose Close, Wyke, SP8 4TX",SP8 4TX,195000,,freehold,old_stock,51.0411447,-2.2879558,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-25,"2, Moat Way, SP8 4GF",SP8 4GF,1460060,,freehold,new_build,51.0325578,-2.2913109,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-24,"9, Honeyfields, SP8 4TN",SP8 4TN,172000,,freehold,old_stock,51.0471653,-2.2784789,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-24,"28, Marlott Road, SP8 4FA",SP8 4FA,252000,3,freehold,old_stock,51.047699,-2.2834445,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-24,"2, Breach Close, Bourton, SP8 5BB",SP8 5BB,282500,,freehold,old_stock,51.074269,-2.3234031,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-24,"Halfway Cottage, Rollestone Road, Shrewton, SP3 4HG",SP3 4HG,470000,,freehold,old_stock,51.1877711,-1.9003685,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-20,"8, Factory Hill, Bourton, SP8 5FN",SP8 5FN,265000,,freehold,old_stock,51.0772214,-2.3232027,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-20,"12, Indus Road, SP7 8FU",SP7 8FU,230000,2,freehold,old_stock,51.0082238,-2.1802052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-20,"13, Imber Place, Tilshead, SP3 4SE",SP3 4SE,270000,,freehold,old_stock,51.2319214,-1.9498222,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-20,"Hill View, High Street, Tilshead, SP3 4SB",SP3 4SB,290000,,freehold,old_stock,51.230683,-1.957145,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-19,"9, Lodbourne Green, SP8 4EH",SP8 4EH,260000,3,freehold,old_stock,51.0424504,-2.2760536,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-19,"35, Bimport, SP7 8AX",SP7 8AX,285000,3,freehold,old_stock,51.0053239,-2.2013399,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-19,"14, Springfield Close, SP7 8RH",SP7 8RH,350000,3,freehold,old_stock,51.0123959,-2.1865272,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-19,"6, Elm Close, Motcombe, SP7 9HN",SP7 9HN,385000,,freehold,old_stock,51.0374673,-2.2218844,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-17,"33, Greenstone Road, SP7 8FL",SP7 8FL,295000,4,freehold,old_stock,51.005963,-2.1818612,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-17,"Carder Bee House, Amesbury Road, Shrewton, SP3 4HD",SP3 4HD,465000,,freehold,old_stock,51.1903974,-1.900194,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-13,"Higher Field Cottage, Common Mead Lane, SP8 4RB",SP8 4RB,557500,,freehold,old_stock,51.0353025,-2.2839295,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"40, Mampitts Lane, SP7 8GR",SP7 8GR,164000,2,leasehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"41, Jeanneau Close, SP7 8PQ",SP7 8PQ,280000,3,freehold,old_stock,51.0074948,-2.1864119,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"6, Wildflower Lane, SP7 8UA",SP7 8UA,329000,,freehold,new_build,51.0136073,-2.1824837,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"63, Foxglove Crescent, SP7 8UF",SP7 8UF,387000,,freehold,new_build,51.0141273,-2.1834978,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"The Surgery, West Street, Fontmell Magna, SP7 0PS",SP7 0PS,410000,,freehold,old_stock,50.9513819,-2.2006145,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"Rowans, Higher Coombe, Donhead St Mary, SP7 9LS",SP7 9LS,500000,,freehold,old_stock,51.0051348,-2.1591335,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-13,"2, Wildflower Lane, SP7 8UA",SP7 8UA,510000,,freehold,new_build,51.0136073,-2.1824837,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-12,"4, Pheasant Way, SP8 4GG",SP8 4GG,237000,3,freehold,old_stock,51.0302617,-2.2624874,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-12,"11, Yalbury Wood Way, SP8 4GR",SP8 4GR,448000,5,freehold,old_stock,51.0455297,-2.2831672,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-12,"1, Queens Farm Court, SP8 4DH",SP8 4DH,581324,,freehold,new_build,51.0325764,-2.2910828,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-12,"2, Temperance Row, Tisbury, SP3 6HW",SP3 6HW,275000,,freehold,old_stock,51.0665135,-2.0811129,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-12,"3, Alexandra Cottages, Tisbury, SP3 6QB",SP3 6QB,302500,,freehold,old_stock,51.0694009,-2.0852902,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-11,"1, Church View, Bourton, SP8 5BT",SP8 5BT,145000,,leasehold,old_stock,51.0716901,-2.3333299,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-11,"33, Thomas Hardy Drive, SP7 8SP",SP7 8SP,221500,2,freehold,old_stock,51.0086334,-2.1825838,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-11,"Pot House, The Avenue, Tisbury, SP3 6JG",SP3 6JG,450000,,freehold,old_stock,51.063254,-2.0798991,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-11,"Cross Cottage, West Street, Barford St Martin, SP3 4AH",SP3 4AH,1000000,,freehold,old_stock,51.0819478,-1.9211559,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-10,"51, Church Street, Tisbury, SP3 6NH",SP3 6NH,200000,,freehold,old_stock,51.0618393,-2.0817876,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-09,"23, Springfield Park, Tisbury, SP3 6QN",SP3 6QN,350000,,freehold,old_stock,51.0609631,-2.0867907,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-06,"29, The Meadows, SP8 4SP",SP8 4SP,130000,1,freehold,old_stock,51.0318082,-2.2680798,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-06,"28, King Edmund Court, SP8 4DL",SP8 4DL,155500,,leasehold,old_stock,51.0397284,-2.2808584,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-06,"6, Prospect Close, SP8 4NZ",SP8 4NZ,282500,3,freehold,old_stock,51.0339809,-2.2689942,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-06,"23, Bryony Gardens, SP8 4TR",SP8 4TR,375000,4,freehold,old_stock,51.0410427,-2.2897141,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-06,"51, Cherryfields, SP8 4TJ",SP8 4TJ,425000,,freehold,old_stock,51.0478179,-2.2734546,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-06,"3, Higher Barn Close, Cann Common, SP7 0DJ",SP7 0DJ,380000,,freehold,old_stock,50.9876434,-2.1666673,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-05,"2, Queens Farm Court, SP8 4DH",SP8 4DH,291400,,freehold,new_build,51.0325764,-2.2910828,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-06-04,"Flat 32, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,55000,1,leasehold,old_stock,51.0380269,-2.2750279,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-03,"Dean Lodge, Swallowcliffe, SP3 5PG",SP3 5PG,940000,,freehold,old_stock,51.040462,-2.0508464,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-06-02,"2, Coles Crescent, SP7 8FX",SP7 8FX,98000,,leasehold,old_stock,51.0033144,-2.1802473,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-06-02,"9, Tyndales Meadow, Dinton, SP3 5HU",SP3 5HU,335000,,freehold,old_stock,51.0818546,-1.9836008,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-30,"15, Thurstin Way, SP8 4FN",SP8 4FN,352000,3,freehold,old_stock,51.0462396,-2.2752641,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-30,"Springfield House, Bugley, SP8 5RD",SP8 5RD,2000000,,freehold,old_stock,51.0207875,-2.3086451,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-30,"39, Great Ground, SP7 8FE",SP7 8FE,257500,,freehold,old_stock,51.011395,-2.1821018,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-30,"3, Highfield Rise, Shrewton, SP3 4DZ",SP3 4DZ,350000,,freehold,old_stock,51.1947452,-1.9026192,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-29,"Motcombe Grange, 25, The Street, Motcombe, SP7 9HJ",SP7 9HJ,265000,,leasehold,old_stock,51.0343437,-2.2205531,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-28,"14, Broad Robin, SP8 4PJ",SP8 4PJ,330000,2,freehold,old_stock,51.0364246,-2.2844384,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-27,"1, Maycroft, Bourton, SP8 5FR",SP8 5FR,249950,,freehold,old_stock,51.07776,-2.3154244,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-23,"15, Deweys Way, SP8 4BW",SP8 4BW,210000,2,freehold,old_stock,51.0416301,-2.2785237,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-23,"67, Foxglove Crescent, SP7 8UF",SP7 8UF,287500,,freehold,new_build,51.0141273,-2.1834978,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-23,"Stacks End, 85, Corner Lane, Motcombe, SP7 9HS",SP7 9HS,295000,,freehold,old_stock,51.0389622,-2.2161286,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-23,"61, Foxglove Crescent, SP7 8UF",SP7 8UF,367650,,freehold,new_build,51.0140728,-2.1838112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-23,"41, Melbury Beacon View, SP7 8DG",SP7 8DG,410000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-21,"15, Rookery Close, SP8 4LH",SP8 4LH,468000,3,freehold,old_stock,51.0332858,-2.2610536,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-21,"13, Hawthorn Avenue, SP8 4ST",SP8 4ST,520000,4,freehold,old_stock,51.0388281,-2.2828925,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-21,"5, Bramble Patch, SP7 8GH",SP7 8GH,250000,3,freehold,old_stock,51.0041607,-2.1798326,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-19,"52, Cherryfields, SP8 4TJ",SP8 4TJ,387500,,freehold,old_stock,51.0476785,-2.2734086,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-16,"21, Wiltshire Close, SP8 4LZ",SP8 4LZ,210000,2,freehold,old_stock,51.0442617,-2.2820423,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-16,"49, Addison Close, SP8 4JS",SP8 4JS,255000,,freehold,old_stock,51.0331689,-2.2679873,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-16,"Mill Corner, Mill Lane, Donhead St Andrew, SP7 9EF",SP7 9EF,625000,,freehold,old_stock,51.0247315,-2.1192916,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-16,"Greengates, Maddington Street, Shrewton, SP3 4JL",SP3 4JL,305000,,freehold,old_stock,51.1948854,-1.9071169,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-16,"16, Highfield Rise, Shrewton, SP3 4DZ",SP3 4DZ,340000,,freehold,old_stock,51.1937908,-1.9010782,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-15,"30, Cherryfields, SP8 4TJ",SP8 4TJ,244000,3,freehold,old_stock,51.0476818,-2.2747367,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-14,"Poppy Cottage, Pound Lane, SP8 4NP",SP8 4NP,425000,3,freehold,old_stock,51.0397354,-2.2922717,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-14,"54, Maple Road, SP7 8FR",SP7 8FR,108000,3,leasehold,old_stock,51.006874,-2.1806166,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-13,"9, The Butts, Shrewton, SP3 4LD",SP3 4LD,255000,,freehold,old_stock,51.1974282,-1.9040909,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-12,"5, St James Street, SP7 8HE",SP7 8HE,356000,,freehold,old_stock,51.0034374,-2.1988191,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-09,"Acacia, 15, Common Mead Avenue, SP8 4NB",SP8 4NB,210000,,freehold,old_stock,51.0365924,-2.2803867,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-09,"Queenshead Mews, High Street, Hindon, SP3 6DR",SP3 6DR,590000,,freehold,old_stock,51.0944552,-2.1283814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-07,"51, Cherryfields, SP8 4TJ",SP8 4TJ,297500,,freehold,old_stock,51.0478179,-2.2734546,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-07,"12, Grays Close, Motcombe, SP7 9QB",SP7 9QB,128000,,leasehold,old_stock,51.0295626,-2.2157869,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-07,"45a, Bell Street, SP7 8AE",SP7 8AE,165000,,freehold,old_stock,51.0073298,-2.1950874,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-05-07,"6, Brook Close, Winterbourne Stoke, SP3 4SR",SP3 4SR,432000,,freehold,old_stock,51.1683028,-1.8918399,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-06,"Flat 2, Newbury House, Newbury, SP8 4HG",SP8 4HG,172500,,leasehold,old_stock,51.0351068,-2.270407,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-06,"1, Hawthorn Avenue, SP8 4ST",SP8 4ST,410000,3,freehold,old_stock,51.0388281,-2.2828925,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-05-06,"68, Sweetmans Road, SP7 8EH",SP7 8EH,184000,,freehold,old_stock,51.0136408,-2.1858911,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-02,"10, Ivy Close, SP8 4UD",SP8 4UD,165000,2,freehold,old_stock,51.0400149,-2.2892853,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-05-02,"91, Lakeside Drive, SP8 4YX",SP8 4YX,250000,,freehold,new_build,51.0295902,-2.2687187,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-30,"44, Oake Woods, SP8 4QS",SP8 4QS,285000,4,freehold,old_stock,51.0336225,-2.2759617,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-30,"10, Becket Street, Tisbury, SP3 6HB",SP3 6HB,240000,,freehold,old_stock,51.0628548,-2.0816026,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-29,"The Works, 2, Old Lower Blandford Road, SP7 8GA",SP7 8GA,210000,,freehold,old_stock,51.0024448,-2.1877199,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-29,"42, Jeanneau Close, SP7 8PQ",SP7 8PQ,227500,2,freehold,old_stock,51.0072605,-2.1870767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-28,"3, Hilltop Close, Shrewton, SP3 4EB",SP3 4EB,432500,,freehold,old_stock,51.1915079,-1.9000029,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-25,"Penyvan, Wyke Road, SP8 4NH",SP8 4NH,265000,2,freehold,old_stock,51.0385821,-2.2902814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-25,"Tredegar, Wyke Road, SP8 4NH",SP8 4NH,270000,,freehold,old_stock,51.0385821,-2.2902814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-25,"8, Queens Farm Court, SP8 4DH",SP8 4DH,327750,,freehold,new_build,51.0325764,-2.2910828,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-25,"20, Bryony Gardens, SP8 4TR",SP8 4TR,357500,,freehold,old_stock,51.0412756,-2.2898329,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-25,"Bishops Barn, Foots Hill, Cann, SP7 0BW",SP7 0BW,810000,,freehold,old_stock,50.9901931,-2.182032,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-25,"18, Queens Road, Tisbury, SP3 6JN",SP3 6JN,240000,,freehold,old_stock,51.0651437,-2.0779302,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-25,"14, Highfield Rise, Shrewton, SP3 4DZ",SP3 4DZ,375000,,freehold,old_stock,51.1938834,-1.901092,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-23,"9, Regency Court, SP8 4TY",SP8 4TY,145000,2,freehold,old_stock,51.037487,-2.2879412,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-23,"Homestead, Back Street, East Stour, SP8 5JZ",SP8 5JZ,207000,,freehold,old_stock,51.0085512,-2.2843301,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-22,"10, Nettlebed Nursery, SP7 8QS",SP7 8QS,185000,,freehold,old_stock,51.0099399,-2.1981627,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-22,"1, Burton Close, SP7 8SW",SP7 8SW,235000,3,freehold,old_stock,51.0077661,-2.1839339,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-17,"Flat 20, Newbury Gardens, Newbury, SP8 4HG",SP8 4HG,120000,,leasehold,old_stock,51.034899,-2.2683723,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-17,"4, Claybush, Chilmark, SP3 5BJ",SP3 5BJ,290000,,freehold,old_stock,51.0908848,-2.0459697,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-04-17,"Graten Cottage, Homanton, Shrewton, SP3 4ER",SP3 4ER,405500,,freehold,old_stock,51.1875665,-1.9026429,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-16,"42, Foxglove Close, Wyke, SP8 4TW",SP8 4TW,525000,,freehold,old_stock,51.0408104,-2.287159,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-15,"2, Stroud Bungalows, Silton, SP8 5PW",SP8 5PW,120000,,freehold,old_stock,51.0715303,-2.3154055,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-14,"Dair House, Calves Lane, SP7 8GU",SP7 8GU,1250000,,freehold,old_stock,51.0115621,-2.2152278,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-11,"1, Church Close, Fontmell Magna, SP7 0NX",SP7 0NX,220000,,freehold,old_stock,50.952874,-2.1933498,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-10,"1, Hedgehog Path, SP8 4GD",SP8 4GD,190000,,freehold,old_stock,51.0310902,-2.2624732,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-04,"27, Chaffinch Chase, SP8 4GP",SP8 4GP,257500,,freehold,old_stock,51.0314421,-2.2637671,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-04-04,"Roseville, Wyke Road, SP8 4NH",SP8 4NH,385000,3,freehold,old_stock,51.0385821,-2.2902814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-04,"1, The Bartons, SP7 8LN",SP7 8LN,218000,,freehold,old_stock,51.0072871,-2.2052478,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-04-04,"35, Greenacre Way, SP7 8FT",SP7 8FT,290000,3,freehold,old_stock,51.0026244,-2.1795455,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"8, King Edmund Court, SP8 4DL",SP8 4DL,122000,,leasehold,old_stock,51.0397705,-2.2805849,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"7, Shreen Way, SP8 4EL",SP8 4EL,190000,1,freehold,old_stock,51.0425529,-2.2738501,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"8, Simene Walk, SP8 4FU",SP8 4FU,282500,4,freehold,old_stock,51.031298,-2.2572634,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"6, Bridge Street, Bourton, SP8 5BA",SP8 5BA,340000,,freehold,old_stock,51.0766616,-2.3227636,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"12, Rookery Close, SP8 4LH",SP8 4LH,345000,3,freehold,old_stock,51.0330776,-2.2603478,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"Morley Place, Bay Lane, SP8 4ER",SP8 4ER,435000,3,freehold,old_stock,51.0412694,-2.2706981,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"2, Fifehead Magdalen, SP8 5RT",SP8 5RT,585000,,freehold,old_stock,50.9923775,-2.3148682,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"Landshire, Stroud Common, Silton, SP8 5PN",SP8 5PN,625000,,freehold,old_stock,51.070911,-2.3149874,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-31,"Meadowside, The Common, East Stour, SP8 5NB",SP8 5NB,2400000,,freehold,old_stock,51.0091917,-2.2678554,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-31,"Church Farm, The Cottage, Foyle Hill, SP7 0AG",SP7 0AG,190000,,freehold,old_stock,51.0005954,-2.2070812,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-31,"31, Snowdrop Wynde, SP7 8GX",SP7 8GX,290000,3,freehold,old_stock,51.0068677,-2.1800813,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"Flat 11, Nexus, Addison Close, SP8 4LR",SP8 4LR,107000,,leasehold,old_stock,51.0326065,-2.2708005,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"12, Witchfield, East Stour, SP8 5LA",SP8 5LA,195000,,freehold,old_stock,51.0083034,-2.2860518,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"11, Milestone Way, SP8 4TB",SP8 4TB,222000,2,freehold,old_stock,51.0373858,-2.2890445,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"24, Windsor Lane, Wyke, SP8 4TG",SP8 4TG,252500,,freehold,old_stock,51.0361591,-2.290023,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"69, Lakeside Drive, SP8 4YX",SP8 4YX,299000,,freehold,new_build,51.0299966,-2.2681181,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"87, Lakeside Drive, SP8 4YX",SP8 4YX,315000,,freehold,new_build,51.030545,-2.2683998,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"Kimberley, Wavering Lane East, SP8 4NX",SP8 4NX,415000,4,freehold,old_stock,51.0430838,-2.2819341,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-28,"Birch House, Peacemarsh Farm Close, SP8 4XQ",SP8 4XQ,575000,6,freehold,old_stock,51.0468989,-2.280916,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"41, Maple Close, SP7 8RF",SP7 8RF,173000,3,freehold,old_stock,51.0136566,-2.1874482,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"King Edwards Court, 7, Abbey Walk, SP7 8BB",SP7 8BB,181500,,leasehold,old_stock,51.0053048,-2.1999644,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"10, Snowdrop Wynde, SP7 8GX",SP7 8GX,212500,,freehold,old_stock,51.0069172,-2.179763,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"The Stables, 5, Yeatmans Lane, SP7 8LR",SP7 8LR,252500,,freehold,old_stock,51.0076205,-2.2028921,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"25, Bittles Green, Motcombe, SP7 9NX",SP7 9NX,285000,,freehold,old_stock,51.0246376,-2.2110295,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"24, Bittles Green, Motcombe, SP7 9NX",SP7 9NX,285000,,freehold,old_stock,51.0246552,-2.2111139,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"24, Indus Road, SP7 8FU",SP7 8FU,290000,3,freehold,old_stock,51.0085659,-2.1801397,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"11, Beaufoy Close, SP7 8PT",SP7 8PT,290000,3,freehold,old_stock,51.0074931,-2.1851768,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"5, Downlands, SP7 8FB",SP7 8FB,345000,4,freehold,old_stock,51.0107561,-2.1829001,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"12, St Edwards Close, SP7 8RJ",SP7 8RJ,380000,5,freehold,old_stock,51.0100473,-2.1880519,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"47, The Street, Motcombe, SP7 9PF",SP7 9PF,475000,,freehold,old_stock,51.0304339,-2.2178864,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-28,"15, Border Close, SP7 8TS",SP7 8TS,486000,,freehold,new_build,51.0172091,-2.1897967,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-28,"Sunnyside Cottage, High Street, Tilshead, SP3 4SB",SP3 4SB,465000,,freehold,old_stock,51.2306307,-1.9577781,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-27,"81, Lakeside Drive, SP8 4YX",SP8 4YX,315000,,freehold,new_build,51.0299917,-2.268678,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-27,"Malt Cottage, Cross Roads, Bourton, SP8 5DD",SP8 5DD,320000,,freehold,old_stock,51.1644931,-2.5857109,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-27,"15, Briar Close, SP8 4SS",SP8 4SS,450000,,freehold,old_stock,51.0394175,-2.2858578,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-27,"32, Homefield, Littledown, SP7 8DT",SP7 8DT,340000,,freehold,old_stock,51.0151035,-2.1912585,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-27,"The Corner Cottage, New Road, Donhead St Andrew, SP7 9EG",SP7 9EG,525000,,freehold,old_stock,51.0252483,-2.1174605,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-26,"7, Melchester Close, SP8 4FB",SP8 4FB,187000,2,freehold,old_stock,51.048017,-2.2814057,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-26,"44, Twyford, SP7 0JJ",SP7 0JJ,320000,,freehold,old_stock,50.963533,-2.2084829,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-26,"24, Gower Road, SP7 8RU",SP7 8RU,320000,3,freehold,old_stock,51.0067095,-2.1816694,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-26,"The Oak House, Stour Row, SP7 0QF",SP7 0QF,780000,,freehold,old_stock,50.9891908,-2.2566842,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-25,"Portland Cottages, 2, Queen Street, SP8 4EA",SP8 4EA,210000,,freehold,old_stock,51.039813,-2.2769488,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-25,"Lynwood, Church Hill, Buckhorn Weston, SP8 5HS",SP8 5HS,400000,,freehold,old_stock,51.0206271,-2.3484819,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-25,"Flat 13, Homefarris House, Bleke Street, SP7 8AU",SP7 8AU,70000,,leasehold,old_stock,51.0085201,-2.1960471,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-24,"1, Addison Terrace, SP8 4JP",SP8 4JP,217500,3,freehold,old_stock,51.033654,-2.2701359,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-24,"1c, Horsefields, Peacemarsh, SP8 4UQ",SP8 4UQ,260000,,freehold,old_stock,51.0493824,-2.2796127,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-24,"Flat 4, The Old Granary, Barton Hill, SP7 8DQ",SP7 8DQ,130000,1,leasehold,old_stock,51.0079065,-2.1935956,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-24,"10, Grosvenor Road, SP7 8DR",SP7 8DR,245000,2,freehold,old_stock,51.012278,-2.1908597,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-24,"40, Foxglove Crescent, SP7 8UF",SP7 8UF,358625,,freehold,new_build,51.0141273,-2.1834978,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-24,"Mallard, Dinton Road, Fovant, SP3 5JW",SP3 5JW,508000,,freehold,old_stock,51.0610525,-1.9992225,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"Wyndgreen Apartments, 5, Wyke Road, SP8 4NG",SP8 4NG,187000,,leasehold,old_stock,51.0388703,-2.2858333,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"19, Shreen Way, SP8 4EL",SP8 4EL,190000,2,freehold,old_stock,51.042865,-2.273849,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"17, Palace Road, SP8 4PQ",SP8 4PQ,215000,,freehold,old_stock,51.0355214,-2.2663704,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"83, Lakeside Drive, SP8 4YX",SP8 4YX,215000,,freehold,new_build,51.030545,-2.2683998,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"71, Lakeside Drive, SP8 4YX",SP8 4YX,300000,,freehold,new_build,51.030545,-2.2683998,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-21,"6, Hine Close, SP8 4GN",SP8 4GN,399950,4,freehold,old_stock,51.0316519,-2.261194,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-21,"Cann Court, 2, Butts Knapp, SP7 8NW",SP7 8NW,127000,,leasehold,old_stock,51.0025735,-2.1875123,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-21,"19, Jeanneau Close, SP7 8PQ",SP7 8PQ,220000,2,freehold,old_stock,51.0072605,-2.1870767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-21,"23, Hilltop Grove, SP7 8TU",SP7 8TU,465000,3,freehold,old_stock,51.0177731,-2.1912835,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-21,"31, Brook Close, Tisbury, SP3 6PW",SP3 6PW,335000,,freehold,old_stock,51.0623984,-2.0860454,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-21,"1, The Mallards, Tisbury, SP3 6SD",SP3 6SD,513000,,freehold,old_stock,51.0608508,-2.083291,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-20,"Flat 25, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,124800,2,leasehold,old_stock,51.0380269,-2.2750279,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-19,"15, Great Barton Hill Road, SP8 4AF",SP8 4AF,634930,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-19,"34, Trinity Road, SP7 8FZ",SP7 8FZ,187500,2,freehold,old_stock,51.0054309,-2.1839024,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-19,"6, The Rickyard, SP7 8FW",SP7 8FW,270000,3,freehold,old_stock,51.0023613,-2.1808355,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-18,"Reading Room Cottage, Compton Abbas, SP7 0NQ",SP7 0NQ,250000,,freehold,old_stock,50.9662691,-2.1858097,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-18,"3, College Arms Close, Stour Row, SP7 0QG",SP7 0QG,375000,,freehold,old_stock,50.9882427,-2.258302,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-18,"16, Bimport, SP7 8AX",SP7 8AX,380000,3,freehold,old_stock,51.0052681,-2.2010797,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-18,"6, Church Walk, Motcombe, SP7 9NU",SP7 9NU,400000,,freehold,old_stock,51.0264998,-2.2154867,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-17,"12, Meadowcroft, SP8 4SR",SP8 4SR,60000,1,leasehold,old_stock,51.031924,-2.2707146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-17,"5, Christys Gardens, SP7 8QN",SP7 8QN,270000,,freehold,old_stock,51.0074474,-2.1883032,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-17,"51, Vale View, SP7 8TH",SP7 8TH,290000,,freehold,old_stock,51.0176698,-2.1905686,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-17,"30, Imber Road, SP7 8RX",SP7 8RX,300000,,freehold,old_stock,51.0080935,-2.1840206,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-14,"Royal Lodge, 23, Newbury, SP8 4WG",SP8 4WG,112000,,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-14,"4, Church View, Bourton, SP8 5BT",SP8 5BT,212500,,freehold,old_stock,51.0718071,-2.3332879,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-14,"Red House, Back Street, East Stour, SP8 5JY",SP8 5JY,350000,,freehold,old_stock,51.0083917,-2.2845806,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-14,"14, Great Barton Hill Road, SP8 4AF",SP8 4AF,513000,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-14,"6, Mampitts Road, SP7 8PG",SP7 8PG,203000,2,freehold,old_stock,51.00542,-2.1832259,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-14,"9, Mampitts Lane, SP7 8FN",SP7 8FN,231000,2,freehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-14,"48, Anstee Road, SP7 8GT",SP7 8GT,310000,3,freehold,old_stock,51.0092549,-2.1819146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-13,"Flat 2, St James House, St James Street, SP7 8HE",SP7 8HE,205100,2,leasehold,old_stock,51.0041315,-2.1976733,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-12,"20, Freame Way, SP8 4RA",SP8 4RA,405000,3,freehold,old_stock,51.0333656,-2.28908,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-12,"2, Sutton View, Fontmell Magna, SP7 0QN",SP7 0QN,515000,,freehold,new_build,50.9489458,-2.1923953,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-12,"Little Barrow, High Street, Fovant, SP3 5JL",SP3 5JL,625000,,freehold,old_stock,51.0574042,-1.9937009,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-12,"Winterbourne House, The Street, Chilmark, SP3 5AU",SP3 5AU,696250,,freehold,old_stock,51.0908595,-2.043338,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-11,"45, Cloverfields, SP8 4UR",SP8 4UR,250000,3,freehold,old_stock,51.0482745,-2.279703,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-11,"18, Poppyfields, SP8 4TH",SP8 4TH,285000,3,freehold,old_stock,51.0481512,-2.2771312,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-11,"Greendown, Wavering Lane West, SP8 4NR",SP8 4NR,330000,,freehold,old_stock,51.0408746,-2.2927708,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-11,"15, Fairey Crescent, SP8 4PE",SP8 4PE,340000,4,freehold,old_stock,51.0430506,-2.2751112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-11,"63, Sorrel Way, SP8 4TP",SP8 4TP,341000,4,freehold,old_stock,51.0398684,-2.2907728,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"6, King Edmund Court, SP8 4DL",SP8 4DL,127000,,leasehold,old_stock,51.0397974,-2.2805614,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"31, Windsor Lane, Wyke, SP8 4TG",SP8 4TG,225000,,freehold,old_stock,51.0362386,-2.290136,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"St Mary's Court, 1, St Mary's Place, SP8 4AT",SP8 4AT,253000,,freehold,old_stock,51.0385216,-2.2778955,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"17, Victoria Road, SP8 4HY",SP8 4HY,310000,,freehold,old_stock,51.0361649,-2.2687489,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"79, Lakeside Drive, SP8 4YX",SP8 4YX,310000,,freehold,new_build,51.030545,-2.2683998,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-07,"7, Common Mead Avenue, SP8 4NB",SP8 4NB,347500,,freehold,old_stock,51.0369561,-2.2801859,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-07,"11, Indus Road, SP7 8FU",SP7 8FU,275000,3,freehold,old_stock,51.0082238,-2.1802052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-07,"The Churchloft, Church Street, Tisbury, SP3 6NH",SP3 6NH,290000,,leasehold,old_stock,51.0619853,-2.0810528,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-07,"Fern Cottage, West Street, Barford St Martin, SP3 4AH",SP3 4AH,308000,,freehold,old_stock,51.0814586,-1.9198784,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-03-05,"8, Fairlane, SP7 8RT",SP7 8RT,390000,4,freehold,old_stock,51.0060348,-2.1865205,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-05,"10, Clarendon Close, Dinton, SP3 5HG",SP3 5HG,370000,,freehold,old_stock,51.0843418,-1.9778577,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-04,"23, Heatherfields, SP8 4TT",SP8 4TT,213000,2,freehold,old_stock,51.0477365,-2.2759052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-04,"12, Factory Hill, Bourton, SP8 5FN",SP8 5FN,295000,,freehold,old_stock,51.0772214,-2.3232027,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-04,"36, Hawthorn Avenue, SP8 4ST",SP8 4ST,439500,4,freehold,old_stock,51.0385366,-2.2819035,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-03,"Royal Lodge, 30, Newbury, SP8 4WG",SP8 4WG,77500,,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-03,"Royal Lodge, 18, Newbury, SP8 4WG",SP8 4WG,115000,,leasehold,old_stock,51.036731,-2.277885,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-03-03,"3, Kings Court Road, SP8 4LD",SP8 4LD,270000,3,freehold,old_stock,51.0344851,-2.262565,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-03-03,"1, Wyatt Orchard, Fovant, SP3 5LB",SP3 5LB,550000,,freehold,old_stock,51.0621264,-2.0072102,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"3, Meadowcroft, SP8 4SR",SP8 4SR,60000,1,leasehold,old_stock,51.031924,-2.2707146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"22, Wiltshire Close, SP8 4LZ",SP8 4LZ,206750,2,freehold,old_stock,51.0443823,-2.2819026,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"7, Cordery Gardens, SP8 4RJ",SP8 4RJ,235000,2,freehold,old_stock,51.045217,-2.2785569,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"34, Fairey Crescent, SP8 4PE",SP8 4PE,242500,2,freehold,old_stock,51.0441853,-2.2754069,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"11, Lockwood Terrace, SP8 4LQ",SP8 4LQ,248000,3,freehold,old_stock,51.0316555,-2.2595938,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"12, Trent Square, SP8 4FS",SP8 4FS,300000,5,freehold,old_stock,51.0335934,-2.2597976,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"22, Bryony Gardens, SP8 4TR",SP8 4TR,355000,4,freehold,old_stock,51.0411242,-2.2897208,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"16, Poppyfields, SP8 4TH",SP8 4TH,362000,3,freehold,old_stock,51.0477718,-2.2768556,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-28,"Fantley, Fantley Lane, Silton, SP8 5AH",SP8 5AH,650000,,freehold,old_stock,51.0746865,-2.310431,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"2, The Bartons, SP7 8LN",SP7 8LN,186000,,freehold,old_stock,51.0071686,-2.2047575,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"Fosse Cottage, Church Street, Fontmell Magna, SP7 0NY",SP7 0NY,190000,,freehold,old_stock,50.9523651,-2.1924114,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"18, Sutton View, Fontmell Magna, SP7 0QN",SP7 0QN,235000,,freehold,new_build,50.9493521,-2.1924072,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"69, Anstee Road, SP7 8GT",SP7 8GT,257500,,freehold,old_stock,51.0092586,-2.1822504,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"19, Melbury Beacon View, SP7 8DG",SP7 8DG,375000,,freehold,new_build,51.000996,-2.179877,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-28,"Saddlers, Elm Hill, Motcombe, SP7 9HL",SP7 9HL,670000,,freehold,old_stock,51.0371551,-2.2205422,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-28,"88, Monmouth Road, Tisbury, SP3 6NR",SP3 6NR,305000,,freehold,old_stock,51.060874,-2.0910288,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-28,"2, Brook Close, Winterbourne Stoke, SP3 4SR",SP3 4SR,500000,,freehold,old_stock,51.1683916,-1.8919366,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-26,"White House, Maddington Street, Shrewton, SP3 4JL",SP3 4JL,725000,,freehold,old_stock,51.1948854,-1.9071169,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-25,"Woodfalls, The Avenue, Tisbury, SP3 6JG",SP3 6JG,380000,,freehold,old_stock,51.063254,-2.0798991,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-21,"22, Downsview Drive, SP8 4RL",SP8 4RL,230000,2,freehold,old_stock,51.0461071,-2.2768351,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-21,"34, Honeyfields, SP8 4TN",SP8 4TN,270000,3,freehold,old_stock,51.0470947,-2.2780071,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-21,"Willow Cottage, Kington Magna, SP8 5EW",SP8 5EW,315000,,freehold,old_stock,51.0057988,-2.3373928,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-21,"1, Great Barton Hill Road, SP8 4AF",SP8 4AF,385500,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-21,"6, Burton Close, SP7 8SW",SP7 8SW,205000,3,freehold,old_stock,51.0075194,-2.1837095,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-21,"31, Wildflower Lane, SP7 8UA",SP7 8UA,327750,,freehold,new_build,51.0136073,-2.1824837,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-21,"43, Brook Close, Tisbury, SP3 6PW",SP3 6PW,360000,,freehold,old_stock,51.0621181,-2.0852527,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-21,"Dinton Lodge, St Marys Road, Dinton, SP3 5HH",SP3 5HH,1075000,,freehold,old_stock,51.0855266,-1.9879666,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-20,"9, Bridge Close, SP8 4LS",SP8 4LS,235000,2,freehold,old_stock,51.0333738,-2.2655143,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-19,"2, Yeatmans Lane, SP7 8LR",SP7 8LR,375000,3,freehold,old_stock,51.0075666,-2.2029844,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-18,"6, King John Road, SP8 4PG",SP8 4PG,162000,1,freehold,old_stock,51.0356876,-2.2646753,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-18,"22, Barnaby Mead, SP8 4AL",SP8 4AL,735000,5,freehold,old_stock,51.0396007,-2.2749513,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-17,"Swanshurst, Shaftesbury Road, Fovant, SP3 5JA",SP3 5JA,675000,,freehold,old_stock,51.0550241,-1.9930438,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-14,"Flat 1, Riley Court, Newbury, SP8 4HG",SP8 4HG,223000,,leasehold,old_stock,51.0351461,-2.2705294,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-14,"10, Factory Hill, Bourton, SP8 5FN",SP8 5FN,270000,,freehold,old_stock,51.0772214,-2.3232027,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-14,"15, East Green, SP7 8FS",SP7 8FS,250000,,freehold,old_stock,51.002404,-2.1788095,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-14,"4, Church Close, Fontmell Magna, SP7 0NX",SP7 0NX,325000,,freehold,old_stock,50.9528529,-2.1936405,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-14,"4, The Thistles, SP7 8JH",SP7 8JH,420000,,freehold,new_build,51.0015076,-2.1805397,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-14,"7, Wardour Court, Tisbury, SP3 6QX",SP3 6QX,925000,,freehold,old_stock,51.0424062,-2.1072071,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-13,"Keepers Cottage, Fifehead Magdalen, SP8 5RR",SP8 5RR,640000,,freehold,old_stock,50.9923775,-2.3148682,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-13,"5, Church Hill, SP7 8QR",SP7 8QR,1200,,freehold,old_stock,51.0076146,-2.2078113,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-13,"Stonehaven, Leigh Lane, East Knoyle, SP3 6AP",SP3 6AP,1037250,,freehold,old_stock,51.072333,-2.172212,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-12,"The Jays, Wavering Lane West, SP8 4NR",SP8 4NR,395000,,freehold,old_stock,51.0422427,-2.2849629,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-12,"14, Castle Gardens, SP7 8GG",SP7 8GG,320000,,leasehold,old_stock,51.0043827,-2.2047185,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-11,"13, Shreen Way, SP8 4EL",SP8 4EL,235000,,freehold,old_stock,51.0426595,-2.2738816,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-11,"Kingmer, 8, Kingsman Lane, SP7 8HD",SP7 8HD,849200,,freehold,old_stock,51.0031098,-2.1963462,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-10,"16, High Street, SP8 4AW",SP8 4AW,135000,,freehold,old_stock,51.0378989,-2.2775984,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"14, Meadowcroft, SP8 4SR",SP8 4SR,75000,,leasehold,old_stock,51.0317699,-2.2708808,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"30, Lockwood Terrace, SP8 4LQ",SP8 4LQ,204000,,freehold,old_stock,51.0315479,-2.2588303,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"2, Pottery Villas, SP8 4JW",SP8 4JW,205000,,freehold,old_stock,51.0336833,-2.2707775,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"St Mary's Court, 3, St Mary's Place, SP8 4AT",SP8 4AT,239500,,freehold,old_stock,51.0385216,-2.2778955,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"25, Claremont Avenue, SP8 4RQ",SP8 4RQ,250000,2,freehold,old_stock,51.0453971,-2.2765653,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"9, Foxglove Close, Wyke, SP8 4TW",SP8 4TW,525000,,freehold,old_stock,51.0413798,-2.2843573,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-07,"The Retreat, Mapperton Hill, Milton On Stour, SP8 5QG",SP8 5QG,640000,,freehold,old_stock,51.0705367,-2.2805675,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-07,"27, Sweetmans Road, SP7 8EQ",SP7 8EQ,225000,3,freehold,old_stock,51.0116124,-2.1886256,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-07,"27, Bell Street, SP7 8AR",SP7 8AR,450000,4,freehold,old_stock,51.0068252,-2.1963058,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-06,"Trapdoor Farm, East Orchard, SP7 0LG",SP7 0LG,385000,,freehold,old_stock,50.9587737,-2.237824,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-05,"Myrtle Cottage, St Martins Square, SP8 4DP",SP8 4DP,390000,4,freehold,old_stock,51.038801,-2.2772948,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-05,"2, Victoria Mews, SP7 8EW",SP7 8EW,328000,2,freehold,old_stock,51.0083674,-2.1945924,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-02-05,"79, St James Street, SP7 8HQ",SP7 8HQ,397000,3,freehold,old_stock,51.0021879,-2.2019131,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-02-04,"Churchbury House, Matthews, Queen Street, SP8 4DZ",SP8 4DZ,190000,,leasehold,old_stock,51.0407236,-2.2772371,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-03,"19, Candown Road, Tilshead, SP3 4SJ",SP3 4SJ,200000,,freehold,old_stock,51.2310939,-1.9483359,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-03,"17, Salisbury Road, Steeple Langford, SP3 4NF",SP3 4NF,355000,,freehold,old_stock,51.1364718,-1.9463432,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-03,"5, Mount Lane, Barford St Martin, SP3 4AG",SP3 4AG,465000,,freehold,old_stock,51.0827277,-1.9202589,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-02-03,"2, Hatch Lane, Tisbury, SP3 6NT",SP3 6NT,565000,,freehold,old_stock,51.0618174,-2.1000437,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-31,"Ham Court, 8, Shaftesbury Road, SP8 4LU",SP8 4LU,80000,,leasehold,old_stock,51.0328298,-2.262142,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-31,"2, The Street, Stour Provost, SP8 5RZ",SP8 5RZ,200000,,freehold,old_stock,50.9932869,-2.2955959,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-31,"1, Wren Place, SP8 4WE",SP8 4WE,265000,3,freehold,old_stock,51.0320639,-2.2641434,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-31,"40, Woodsage Drive, SP8 4UF",SP8 4UF,270000,3,freehold,old_stock,51.039461,-2.2872023,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-31,"Shute Farm, Donhead St Mary, SP7 9DG",SP7 9DG,3122660,,freehold,old_stock,51.0206797,-2.1384133,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-31,"11, Springfield Park, Tisbury, SP3 6QN",SP3 6QN,412500,,freehold,old_stock,51.0607439,-2.0866752,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-30,"4, Denham Drive, Guys Marsh, SP7 0AJ",SP7 0AJ,180000,,freehold,old_stock,50.9826693,-2.2215088,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-30,"Farthings, The Street, Motcombe, SP7 9PE",SP7 9PE,360000,,freehold,old_stock,51.0283637,-2.215173,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-30,"Box Cottage, Cann Common, SP7 0DF",SP7 0DF,630000,,freehold,old_stock,50.9870846,-2.1692097,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-30,"Moot Cottage, Motcombe, SP7 9NT",SP7 9NT,640000,,freehold,old_stock,51.0259971,-2.2163493,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-30,"Oakfield, Furlong Way, Shrewton, SP3 4DY",SP3 4DY,310000,,freehold,old_stock,51.1978534,-1.9015112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-29,"43, Spracklands, Dinton, SP3 5DY",SP3 5DY,215000,,freehold,old_stock,51.0840649,-1.9770478,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-28,"Flat 2, The Crown Inn, Church Street, Tisbury, SP3 6NH",SP3 6NH,330000,,leasehold,old_stock,51.0619853,-2.0810528,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-27,"37, Nettlecombe, SP7 8PR",SP7 8PR,230000,3,freehold,old_stock,51.0088212,-2.1847251,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-27,"Lake Mead, Frog Lane, Motcombe, SP7 9NY",SP7 9NY,625000,,freehold,old_stock,51.0274848,-2.2078341,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-24,"10, Salisbury Street, SP7 8EJ",SP7 8EJ,318000,,freehold,old_stock,51.0060224,-2.1936812,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-24,"Text Cottage, Orcheston, SP3 4RH",SP3 4RH,313000,,freehold,old_stock,51.2035343,-1.9167028,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-22,"23, Casterbridge Way, SP8 4FG",SP8 4FG,392000,4,freehold,old_stock,51.0461635,-2.28394,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-22,"12, Briar Close, SP8 4SS",SP8 4SS,425000,4,freehold,old_stock,51.039755,-2.2863212,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-22,"The Barn, Shooters Lane, SP7 8EZ",SP7 8EZ,380000,3,freehold,old_stock,51.0054429,-2.1947724,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-22,"Lantern Cottage, 22, The Knapp, SP7 8LH",SP7 8LH,400000,,freehold,old_stock,51.0069138,-2.2044057,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-22,"2, Barton Hill, SP7 8DQ",SP7 8DQ,500000,,freehold,old_stock,51.0080846,-2.193556,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-22,"Bramble Cottage, East Knoyle, SP3 6BY",SP3 6BY,700000,,freehold,old_stock,51.0665526,-2.149657,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-20,"Paddock Way, The Street, Motcombe, SP7 9PD",SP7 9PD,650000,,freehold,old_stock,51.032789,-2.2195755,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-17,"The Old Manse, New Road, SP8 4JH",SP8 4JH,90000,,freehold,old_stock,51.0346191,-2.2691814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-17,"7, King Edmund Court, SP8 4DL",SP8 4DL,136000,,leasehold,old_stock,51.0397744,-2.2805815,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-17,"36, Shreen Way, SP8 4EL",SP8 4EL,345000,3,freehold,old_stock,51.0445725,-2.2716449,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-17,"3, Burton Close, SP7 8SW",SP7 8SW,215000,2,freehold,old_stock,51.0077286,-2.1838459,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-17,"53, Anstee Road, SP7 8GT",SP7 8GT,320000,3,freehold,old_stock,51.0082295,-2.1821204,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-17,"7, Tanyard Lane, SP7 8HW",SP7 8HW,330000,3,freehold,old_stock,51.0026892,-2.2023718,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-17,"The Little Cottage, Lower Chicksgrove, Tisbury, SP3 6NB",SP3 6NB,7000,,freehold,old_stock,51.0664886,-2.0395625,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-16,"18, Foxglove Crescent, SP7 8UF",SP7 8UF,332500,,freehold,new_build,51.0140997,-2.1838541,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-16,"Graten House, Rollestone Road, Shrewton, SP3 4HG",SP3 4HG,425000,,freehold,old_stock,51.1876281,-1.8997684,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-15,"24, Sorrel Way, SP8 4TP",SP8 4TP,370000,4,freehold,old_stock,51.0395632,-2.2906952,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-15,"3, Bleax Close, East Orchard, SP7 0AU",SP7 0AU,330000,,freehold,old_stock,50.964641,-2.2390947,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-15,"2, Whitebridge Farm Cottages, Sedgehill, SP7 9JU",SP7 9JU,635000,,freehold,old_stock,51.0452902,-2.1802832,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-13,"39, King John Road, SP8 4PG",SP8 4PG,247000,3,freehold,old_stock,51.0359574,-2.2643883,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2025-01-10,"36, Allen Road, SP7 8GB",SP7 8GB,153000,3,leasehold,old_stock,51.0039852,-2.1787693,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-10,"Churchside, 5, Church Street, Tisbury, SP3 6AZ",SP3 6AZ,173600,,leasehold,old_stock,51.0619585,-2.0807103,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-10,"The Old Farmhouse, Salisbury Road, Steeple Langford, SP3 4LZ",SP3 4LZ,855000,,freehold,old_stock,51.1351126,-1.9406408,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-09,"Sallys Garden, Dinton Road, Fovant, SP3 5JW",SP3 5JW,447000,,freehold,old_stock,51.0610525,-1.9992225,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2025-01-07,"Willow House, The Street, Teffont, SP3 5QT",SP3 5QT,860000,,freehold,old_stock,51.0892201,-2.0169119,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-06,"16, Mill Rise, Bourton, SP8 5DH",SP8 5DH,525000,,freehold,old_stock,51.0757995,-2.3252342,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2025-01-03,"3, Melchester Close, SP8 4FB",SP8 4FB,180000,2,freehold,old_stock,51.0481354,-2.2810817,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-23,"Teddy's Flat, The Square, Tisbury, SP3 6JP",SP3 6JP,160000,,leasehold,old_stock,51.062767,-2.080597,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-20,"1, Ash Green, Bourton, SP8 5FL",SP8 5FL,256000,,freehold,old_stock,51.0701015,-2.3315114,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-20,"7, Great Barton Hill Road, SP8 4AF",SP8 4AF,299250,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-20,"8, Great Barton Hill Road, SP8 4AF",SP8 4AF,535000,,freehold,old_stock,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-20,"6, Great Barton Hill Road, SP8 4AF",SP8 4AF,535000,,freehold,new_build,51.0331356,-2.2904161,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-20,"6, The Bluebells, SP7 8GW",SP7 8GW,268000,,freehold,old_stock,51.0095703,-2.1819791,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-20,"7, Hoeller Close, SP7 8FQ",SP7 8FQ,280000,3,freehold,old_stock,51.0077067,-2.1807707,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-20,"39, Melbury Beacon View, SP7 8DG",SP7 8DG,460000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-20,"Carriers Court, 4, High Street, Shrewton, SP3 4BZ",SP3 4BZ,250000,,freehold,old_stock,51.1963925,-1.9019245,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-20,"29, The Avenue, Tisbury, SP3 6JQ",SP3 6JQ,250000,,freehold,old_stock,51.0652322,-2.0764265,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"9, The Meadows, SP8 4SP",SP8 4SP,185000,2,freehold,old_stock,51.0321175,-2.2686765,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"2, Maycroft, Bourton, SP8 5FR",SP8 5FR,237500,,freehold,old_stock,51.07776,-2.3154244,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"4, Ridgeway Road, SP8 4GH",SP8 4GH,275000,4,freehold,old_stock,51.0458463,-2.2818137,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"2, Bourne Way, SP8 4PF",SP8 4PF,295000,4,freehold,old_stock,51.0445799,-2.276751,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"8, Deane Avenue, SP8 4SH",SP8 4SH,300000,3,freehold,old_stock,51.0370552,-2.287653,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-19,"30, Camelot Way, SP8 4SY",SP8 4SY,342500,4,freehold,old_stock,51.0368675,-2.2903681,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"30, Foxglove Crescent, SP7 8UF",SP7 8UF,89250,,leasehold,old_stock,51.0140728,-2.1838112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"14, Mampitts Lane, SP7 8GR",SP7 8GR,150000,2,leasehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"20, St Lawrence Crescent, SP7 8EG",SP7 8EG,220000,3,freehold,old_stock,51.0125224,-2.188251,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"1, Christys Lane, SP7 8NG",SP7 8NG,240000,,freehold,old_stock,51.0054693,-2.1869847,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"30, Foxglove Crescent, SP7 8UF",SP7 8UF,241991,,freehold,new_build,51.0140728,-2.1838112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"36, Sweetmans Road, SP7 8EH",SP7 8EH,255000,,freehold,old_stock,51.011956,-2.1876604,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"44, Foxglove Crescent, SP7 8UF",SP7 8UF,349125,,freehold,new_build,51.0141273,-2.1834978,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-19,"3, Kings Hill, SP7 8PA",SP7 8PA,465000,4,freehold,old_stock,51.0074739,-2.199378,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-18,"Unit 9, Brickyard Lane, SP8 4JL",SP8 4JL,44000,,freehold,old_stock,51.0338131,-2.2718502,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-18,"Palladwr, Kings Court Road, SP8 4LE",SP8 4LE,410000,3,freehold,old_stock,51.034099,-2.260164,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-18,"2, Christys Gardens, SP7 8QN",SP7 8QN,225000,,freehold,old_stock,51.0074474,-2.1883032,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-18,"1, Black Ven Cottages, Hartgrove, SP7 0AR",SP7 0AR,390000,,freehold,old_stock,50.9723347,-2.2292902,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-18,"Little Russett, Donhead St Andrew, SP7 9DZ",SP7 9DZ,435000,,freehold,old_stock,51.0179679,-2.1230322,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-18,"25, Grosvenor Road, SP7 8DP",SP7 8DP,550000,3,freehold,old_stock,51.0122277,-2.1919439,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-18,"Long Forge, Sutton Mandeville, SP3 5LT",SP3 5LT,415000,,freehold,old_stock,51.0646834,-2.0123295,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-17,"37, Cherryfields, SP8 4TJ",SP8 4TJ,392000,4,freehold,old_stock,51.0479645,-2.2741412,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-17,"24, Maple Close, SP7 8RF",SP7 8RF,230000,3,freehold,old_stock,51.0136854,-2.1880861,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-17,"2, Homefield, Littledown, SP7 8DT",SP7 8DT,295000,,freehold,old_stock,51.0143232,-2.1905018,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-17,"14, Paradise Meadow, Tisbury, SP3 6DG",SP3 6DG,300750,,freehold,old_stock,51.0625739,-2.0822229,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-16,"10, Badger Walk, SP7 8FY",SP7 8FY,260000,,freehold,old_stock,51.0037491,-2.1797345,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-13,"7, Broad Acres, SP8 4SB",SP8 4SB,248500,,freehold,old_stock,51.045963,-2.2738579,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-13,"75, Lakeside Drive, SP8 4YX",SP8 4YX,268448,,freehold,new_build,51.030545,-2.2683998,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-13,"17, Downsview Drive, SP8 4RL",SP8 4RL,270000,2,freehold,old_stock,51.0465344,-2.2770231,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-13,"41, Shreen Way, SP8 4EL",SP8 4EL,285000,2,freehold,old_stock,51.0440718,-2.2729558,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-13,"16, Barnaby Mead, SP8 4AL",SP8 4AL,425000,,freehold,old_stock,51.0395843,-2.2733326,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-13,"26, Trinity Road, Shrewton, SP3 4DG",SP3 4DG,235000,,freehold,old_stock,51.1970239,-1.89965,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-13,"Duir Lodge, Homanton, Shrewton, SP3 4ER",SP3 4ER,830000,,freehold,old_stock,51.1875665,-1.9026429,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"7, Kingfisher Avenue, SP8 4GL",SP8 4GL,108250,,leasehold,old_stock,51.0306921,-2.2613328,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"13, King Edmund Court, SP8 4DL",SP8 4DL,152500,,leasehold,old_stock,51.0395735,-2.2807304,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"10, Plantagenet Way, SP8 4TD",SP8 4TD,190000,2,freehold,old_stock,51.0377116,-2.2908298,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"32, Wessex Way, SP8 4LX",SP8 4LX,242000,2,freehold,old_stock,51.0446272,-2.2829814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"35, Cherryfields, SP8 4TJ",SP8 4TJ,372500,4,freehold,old_stock,51.0479396,-2.2744374,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"19, Milestone Way, SP8 4TB",SP8 4TB,375000,4,freehold,old_stock,51.0369764,-2.2890747,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"Needles Cottage, Back Street, East Stour, SP8 5JZ",SP8 5JZ,422500,,freehold,old_stock,51.0085512,-2.2843301,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-12,"Rookside Cottage, 2, Church Hill, Buckhorn Weston, SP8 5HS",SP8 5HS,567500,,freehold,old_stock,51.0206271,-2.3484819,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-12,"8, Lady Down View, Tisbury, SP3 6LL",SP3 6LL,600000,,freehold,old_stock,51.0670351,-2.0776836,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-11,"5, The Laurels, SP8 4RS",SP8 4RS,325000,3,freehold,old_stock,51.0351513,-2.2861645,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-11,"39, Trinity Road, SP7 8FZ",SP7 8FZ,173500,2,freehold,old_stock,51.0054309,-2.1839024,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-10,"6, Littledown, SP7 9HD",SP7 9HD,140000,1,freehold,old_stock,51.0150277,-2.1900606,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-10,"Nettlebed Nursery, 6, New Road, SP7 8QS",SP7 8QS,200000,,freehold,old_stock,51.0099399,-2.1981627,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-10,"32, Mead Way, SP7 8GJ",SP7 8GJ,285000,,freehold,old_stock,51.0047461,-2.1800315,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-09,"18, King Edmund Court, SP8 4DL",SP8 4DL,78000,,leasehold,old_stock,51.0396225,-2.2809889,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-09,"Motcombe Grange, 7, The Street, Motcombe, SP7 9HJ",SP7 9HJ,320000,,leasehold,old_stock,51.0343437,-2.2205531,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-09,"Bay Tree Cottage, Shorts Green Lane, Motcombe, SP7 9PA",SP7 9PA,435000,,freehold,old_stock,51.0321921,-2.2149297,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-09,"3, Chartwell Place, Shrewton, SP3 4FU",SP3 4FU,750000,,freehold,old_stock,51.1901875,-1.9015016,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-09,"The Elms, High Street, Tisbury, SP3 6HH",SP3 6HH,1300000,,freehold,old_stock,51.065553,-2.080794,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-06,"65, The Meadows, SP8 4SP",SP8 4SP,225000,,freehold,old_stock,51.0319691,-2.268616,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"7, St Edwards Close, SP7 8RJ",SP7 8RJ,205000,,freehold,old_stock,51.0103527,-2.1877591,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"27, Maple Road, SP7 8FR",SP7 8FR,263500,,freehold,old_stock,51.0068754,-2.1806172,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"6, St Johns Close, Donhead St Mary, SP7 9NB",SP7 9NB,425000,,freehold,old_stock,51.0032881,-2.1406997,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"35, Melbury Beacon View, SP7 8DG",SP7 8DG,428750,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"2, Old Crown Road, Fontmell Magna, SP7 0QR",SP7 0QR,440000,,freehold,new_build,50.9493962,-2.1933086,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"4, Glebe Gardens, Motcombe, SP7 9QQ",SP7 9QQ,490000,,freehold,old_stock,51.0303037,-2.2153903,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-06,"Charlton View, 2, Ash Tree Lane, Cann Common, SP7 0DN",SP7 0DN,830000,,freehold,old_stock,50.987973,-2.1624513,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-05,"32, Oake Woods, SP8 4QS",SP8 4QS,113000,1,leasehold,old_stock,51.0339477,-2.274467,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-05,"7, Church View, SP8 4XE",SP8 4XE,255000,3,freehold,old_stock,51.0354447,-2.2781997,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-04,"1, Indus Road, SP7 8FU",SP7 8FU,172500,1,freehold,old_stock,51.0077257,-2.1801302,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-04,"19, Nettlebed Nursery, SP7 8QS",SP7 8QS,380000,,freehold,old_stock,51.0095792,-2.1985485,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-03,"11, Freame Way, SP8 4RA",SP8 4RA,267000,2,freehold,old_stock,51.0328994,-2.2890578,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-03,"Jolly Lodge, Stour Row, SP7 0QB",SP7 0QB,343207,,freehold,old_stock,50.979953,-2.2569365,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-02,"45, Chaffinch Chase, SP8 4GP",SP8 4GP,280000,4,freehold,old_stock,51.0313926,-2.2647623,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-12-02,"1, Olde Fairfield, Bourton, SP8 5YG",SP8 5YG,420000,,freehold,old_stock,51.0767838,-2.315162,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-02,"18, The Venn, SP7 8EB",SP7 8EB,242000,3,freehold,old_stock,51.0101173,-2.1894774,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-12-02,"19, Hilltop Grove, SP7 8TU",SP7 8TU,385000,3,freehold,old_stock,51.0176745,-2.1913546,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-12-02,"St Helier, Park Road, Tisbury, SP3 6LF",SP3 6LF,530000,,freehold,old_stock,51.0657489,-2.0773312,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"5, Campion Close, Wyke, SP8 4UG",SP8 4UG,150000,,freehold,old_stock,51.0400899,-2.2876832,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"10, Horsefields, Peacemarsh, SP8 4UQ",SP8 4UQ,182000,,freehold,old_stock,51.0496003,-2.2791642,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"24, Lakeside Drive, SP8 4YN",SP8 4YN,220000,,freehold,new_build,51.0312641,-2.2691023,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"65, The Meadows, SP8 4SP",SP8 4SP,230000,,freehold,old_stock,51.0319691,-2.268616,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"7, Forge End, East Stour, SP8 5NF",SP8 5NF,230000,,freehold,old_stock,51.0057683,-2.2883637,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"5, Lammas Close, SP8 4RP",SP8 4RP,240000,2,freehold,old_stock,51.0449749,-2.2754701,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"25, Primrose Close, Wyke, SP8 4TX",SP8 4TX,250000,,freehold,old_stock,51.0406879,-2.2872592,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"33, Claremont Avenue, SP8 4RH",SP8 4RH,270000,2,freehold,old_stock,51.0455424,-2.2757733,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"16, Lodbourne Green, SP8 4EH",SP8 4EH,285000,3,freehold,old_stock,51.0428421,-2.2757437,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"39, Shreen Way, SP8 4EL",SP8 4EL,286000,,freehold,old_stock,51.0439965,-2.2730876,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"14, Trent Square, SP8 4FS",SP8 4FS,325000,4,freehold,old_stock,51.0336578,-2.2595146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-29,"32, Foxglove Close, Wyke, SP8 4TW",SP8 4TW,460000,,freehold,old_stock,51.041298,-2.2867948,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-29,"Flat 6, The Old Granary, Barton Hill, SP7 8DQ",SP7 8DQ,136000,2,leasehold,old_stock,51.0079065,-2.1935956,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-29,"36, Melbury Beacon View, SP7 8DG",SP7 8DG,340000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-29,"14, Indus Road, SP7 8FU",SP7 8FU,350000,4,freehold,old_stock,51.0082238,-2.1802052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-29,"38, Melbury Beacon View, SP7 8DG",SP7 8DG,414995,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-29,"The Moorland, Elm Hill, Motcombe, SP7 9HR",SP7 9HR,432500,,freehold,old_stock,51.0391156,-2.2188632,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-29,"4, Lovegrove Acre, Dinton, SP3 5DX",SP3 5DX,800000,,freehold,old_stock,51.0827107,-1.9833927,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-28,"65, Jay Walk, SP8 4GY",SP8 4GY,180000,1,freehold,old_stock,51.0326328,-2.2638954,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-28,"3, Green Drove, Fovant, SP3 5JG",SP3 5JG,393000,,freehold,old_stock,51.0605089,-1.987321,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-27,"18, Layton Lane, SP7 8EY",SP7 8EY,475000,4,freehold,old_stock,51.0047135,-2.1956047,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-27,"Old Bozley Farm House, Long Lane, Cann, SP7 0BJ",SP7 0BJ,792500,,freehold,old_stock,50.9928624,-2.1806484,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-26,"1, Squalls Lane, Tisbury, SP3 6RX",SP3 6RX,265000,,freehold,old_stock,51.0455354,-2.0684628,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-26,"Holly House, Ansty Coombe Lane, Ansty, SP3 5PZ",SP3 5PZ,725000,,freehold,old_stock,51.0363701,-2.0722429,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-25,"Royal Lodge, 24, Newbury, SP8 4WG",SP8 4WG,95000,,leasehold,old_stock,51.0365338,-2.2707242,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-25,"1d, Pound Lane, SP7 8RZ",SP7 8RZ,117000,,leasehold,old_stock,51.0060517,-2.183808,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"43, Garage, Chaffinch Chase, SP8 4GP",SP8 4GP,20000,,freehold,old_stock,51.0311883,-2.2636115,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"7, Oake Woods, SP8 4QS",SP8 4QS,137000,2,leasehold,old_stock,51.0340225,-2.2743665,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"18, Pimpernel Court, SP8 4UW",SP8 4UW,202500,2,freehold,old_stock,51.039518,-2.2886166,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"34, Maple Way, SP8 4RR",SP8 4RR,210000,,freehold,old_stock,51.0357024,-2.2857869,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"27, Spinners Way, SP8 4YP",SP8 4YP,295000,,freehold,new_build,51.0311486,-2.2701067,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"15, Bayfields, SP8 4AE",SP8 4AE,309000,,freehold,old_stock,51.0403065,-2.2739061,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"39, Bryony Gardens, SP8 4TR",SP8 4TR,392500,,freehold,old_stock,51.0414422,-2.2885781,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"Bay Cottage, Bay Road, SP8 4EW",SP8 4EW,405000,,freehold,old_stock,51.0421598,-2.2688719,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-22,"2, Swallowfields, SP8 4US",SP8 4US,475000,,freehold,old_stock,51.048514,-2.2764505,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-22,"17, Mead Way, SP7 8GJ",SP7 8GJ,150000,,leasehold,old_stock,51.0047461,-2.1800315,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-22,"15, Ash Close, SP7 8RA",SP7 8RA,179000,,freehold,old_stock,51.0124416,-2.185984,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-22,"17, St Lawrence Crescent, SP7 8EG",SP7 8EG,225000,3,freehold,old_stock,51.0126025,-2.1887665,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-22,"Motcombe Meadow, 10, The Street, Motcombe, SP7 9EZ",SP7 9EZ,285000,,freehold,old_stock,51.0330702,-2.2189796,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-21,"Slodbrook Farm, Milton On Stour, SP8 5AB",SP8 5AB,175665,,freehold,old_stock,51.0695526,-2.2899863,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-21,"30, Mampitts Lane, SP7 8GR",SP7 8GR,290000,3,freehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-20,"Flat 29, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,90000,,leasehold,old_stock,51.0387514,-2.274536,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-20,"39, Lockwood Terrace, SP8 4LQ",SP8 4LQ,239000,3,freehold,old_stock,51.0322468,-2.2596282,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-20,"64, Maple Road, SP7 8FR",SP7 8FR,248000,3,freehold,old_stock,51.0068735,-2.1806164,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-18,"Sekondi, Peacemarsh, SP8 4EU",SP8 4EU,265000,,freehold,old_stock,51.0482052,-2.2809624,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-18,"Hill House, Cann Common, SP7 0DL",SP7 0DL,1655337,,freehold,old_stock,50.987388,-2.1645236,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-15,"Jasmine Cottage, Pound Lane, SP8 4NP",SP8 4NP,305000,,freehold,old_stock,51.038872,-2.291589,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-15,"2, Lindlar Close, SP7 8PS",SP7 8PS,235000,,freehold,old_stock,51.0105987,-2.1869152,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-15,"89, Ridge, Chilmark, SP3 5BS",SP3 5BS,385000,,freehold,old_stock,51.0862619,-2.0664958,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-14,"25, King Edmund Court, SP8 4DL",SP8 4DL,145000,,leasehold,old_stock,51.0397401,-2.2809272,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-14,"Dolphin Cottage, 2, Peacemarsh, SP8 4EU",SP8 4EU,249950,,freehold,old_stock,51.0469975,-2.279292,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-14,"Foyers Lodge, Shaftesbury Road, SP8 5JG",SP8 5JG,464000,,freehold,old_stock,51.0267378,-2.2558038,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-14,"The Old Barn, Buckhorn Weston, SP8 5HP",SP8 5HP,750000,,freehold,old_stock,51.0156081,-2.3655436,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-14,"33, St James Street, SP7 8HF",SP7 8HF,333000,,freehold,old_stock,51.0030996,-2.200058,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-13,"Mission Hall Cottage, Chilmark, SP3 5BH",SP3 5BH,350000,,freehold,old_stock,51.0916873,-2.0462922,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-12,"15, Bramble Patch, SP7 8GH",SP7 8GH,270000,3,freehold,old_stock,51.0041607,-2.1798326,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-11,"Rookery Cottage, Fantley Lane, Silton, SP8 5AH",SP8 5AH,712500,,freehold,old_stock,51.0744222,-2.3100297,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-11,"3d, Salisbury Street, SP7 8EL",SP7 8EL,310000,,freehold,old_stock,51.0061352,-2.1940729,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-08,"4, Pottery Villas, SP8 4JW",SP8 4JW,225000,,freehold,old_stock,51.0336833,-2.2707775,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-08,"9, Somerset Close, SP8 4LY",SP8 4LY,305000,,freehold,old_stock,51.0439026,-2.2811176,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-08,"The Old Stables, Milton On Stour, SP8 5QD",SP8 5QD,510000,,freehold,old_stock,51.0575567,-2.2848288,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-08,"32, Greenacre Way, SP7 8FT",SP7 8FT,212000,,freehold,old_stock,51.0026244,-2.1795455,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-08,"16 Hays Park, Sedgehill, SP7 9JR",SP7 9JR,308675,,leasehold,old_stock,51.0528889,-2.1818623,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-08,"Ruernarth, High Street, Tilshead, SP3 4RZ",SP3 4RZ,310000,3,freehold,old_stock,51.2306944,-1.953669,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-08,"White Lodge, Salisbury Road, Shrewton, SP3 4HZ",SP3 4HZ,500000,,freehold,old_stock,51.1928559,-1.902981,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-07,"Larchwood, 21, Glyn Place, East Melbury, SP7 0DP",SP7 0DP,485000,,freehold,old_stock,50.9874078,-2.1615518,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-07,"Ar-tig, Swallowcliffe, SP3 5PH",SP3 5PH,420000,,freehold,old_stock,51.0358693,-2.054523,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-06,"The Old Bakery, Kington Magna, SP8 5EW",SP8 5EW,448000,,freehold,old_stock,51.0057923,-2.3373887,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-06,"Fitz House, The Street, Teffont, SP3 5QP",SP3 5QP,800000,,freehold,old_stock,51.0863,-2.0164898,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-04,"Orchard House, 7, West Orchard, SP7 0LJ",SP7 0LJ,735000,,freehold,old_stock,50.9487406,-2.2528354,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-01,"14, Wren Place, SP8 4WE",SP8 4WE,167500,,freehold,old_stock,51.0325313,-2.2640883,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-01,"10, Regency Court, SP8 4TY",SP8 4TY,195000,,freehold,old_stock,51.0374118,-2.2884461,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-11-01,"30, Wessex Way, SP8 4LX",SP8 4LX,211000,2,freehold,old_stock,51.044617,-2.2831132,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-01,"4, St Edwards Court, SP7 8LZ",SP7 8LZ,105000,,leasehold,old_stock,51.0048467,-2.1913527,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-01,"15, French Mill Lane, SP7 8EU",SP7 8EU,170000,,freehold,old_stock,51.0011001,-2.1934682,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-11-01,"5, Horsehill Place, Donhead St Mary, SP7 9EY",SP7 9EY,240000,,freehold,old_stock,51.0028154,-2.1374916,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-11-01,"East End Cottages, 4, Sandhills Road, Dinton, SP3 5EP",SP3 5EP,575000,,freehold,old_stock,51.0851899,-1.9733087,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-31,"45, Sylvan Way, SP8 4EQ",SP8 4EQ,217000,,freehold,old_stock,51.0453061,-2.2738497,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-31,"24, Wessex Way, SP8 4LX",SP8 4LX,218000,,freehold,old_stock,51.0440439,-2.2831627,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-31,"38, Maple Close, SP7 8RF",SP7 8RF,225000,3,freehold,old_stock,51.0135992,-2.1876154,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-31,"24, Win Green View, SP7 8SR",SP7 8SR,225000,,freehold,old_stock,51.0083072,-2.1848432,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-31,"31, Foxglove Crescent, SP7 8UF",SP7 8UF,430000,,freehold,new_build,51.0140997,-2.1838541,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-31,"Ancombe, Stour Row, SP7 0QW",SP7 0QW,870000,,freehold,old_stock,50.9931059,-2.2467886,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-30,"4, Cypress Way, SP8 4BY",SP8 4BY,225000,3,freehold,old_stock,51.0401338,-2.2783432,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-30,"Flat, The Bank, Station Road, SP8 4PY",SP8 4PY,237234,,leasehold,old_stock,51.0360646,-2.2730483,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-30,"4, Mampitts Lane, SP7 8GR",SP7 8GR,320000,,freehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-30,"37, Melbury Beacon View, SP7 8DG",SP7 8DG,430000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-30,"Berry Cottage, Lower Wincombe Lane, Donhead St Mary, SP7 9DB",SP7 9DB,800000,,freehold,old_stock,51.0209934,-2.1483097,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-30,"Sahaja, Shaftesbury Road, Compton Chamberlayne, SP3 5DJ",SP3 5DJ,245000,,freehold,old_stock,51.0636603,-1.9579587,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-30,"Fitz House, The Street, Teffont, SP3 5QP",SP3 5QP,400000,,leasehold,old_stock,51.0863,-2.0164898,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-30,"The Upper House, Fonthill Bishop, SP3 5SH",SP3 5SH,1800000,,freehold,old_stock,51.095238,-2.091109,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-29,"49, Church Street, Fontmell Magna, SP7 0NY",SP7 0NY,315000,,freehold,old_stock,50.9517051,-2.1918592,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-29,"Yew Tree Cottage, Frog Lane, Motcombe, SP7 9NY",SP7 9NY,390000,,freehold,old_stock,51.0273015,-2.2083017,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-29,"2, Mowbray Cottages, Cherry Orchard, SP7 0PU",SP7 0PU,475000,,freehold,old_stock,50.9982445,-2.2224902,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-29,"Tittle Path Cottage, Gutch Common, SP7 9BG",SP7 9BG,560000,,freehold,old_stock,51.0301422,-2.1473493,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-29,"Stops House, Fonthill Gifford, SP3 6PX",SP3 6PX,2146500,,freehold,old_stock,51.0803589,-2.1007852,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-28,"11, Cherryfields, SP8 4TJ",SP8 4TJ,252000,,freehold,old_stock,51.0475015,-2.2743515,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-28,"Blackmore Vale House, Newbury, SP8 4QJ",SP8 4QJ,410000,,freehold,old_stock,51.0361619,-2.2706814,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-28,"Mill Cottage, Mill Lane, Bourton, SP8 5DA",SP8 5DA,875000,4,freehold,old_stock,51.0764205,-2.3239752,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-28,"Blacksmiths Workshop, Horseponds, SP7 8LJ",SP7 8LJ,70000,,freehold,old_stock,51.006718,-2.2046484,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-28,"The Old Polo Stables, Arundel Barn, Ansty, SP3 5PX",SP3 5PX,720000,,freehold,old_stock,51.0310514,-2.0715052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-25,"Owl Cottage, Queen Street, SP8 4DZ",SP8 4DZ,153000,,freehold,old_stock,51.0403714,-2.277063,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-25,"34, Maple Way, SP8 4RR",SP8 4RR,200000,,freehold,old_stock,51.0357024,-2.2857869,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-25,"Hunger Hill Farm, Hunger Hill Farm Cottage, Hunger Hill, East Stour, SP8 5JR",SP8 5JR,375000,,freehold,old_stock,51.015364,-2.2778699,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-25,"Spring Garden, Bourton, SP8 5AP",SP8 5AP,465500,,freehold,old_stock,51.0794551,-2.3153984,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"95, Blackmore Road, SP7 8RL",SP7 8RL,100000,,leasehold,old_stock,51.012653,-2.1830565,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"65, Foxglove Crescent, SP7 8UF",SP7 8UF,315000,,freehold,new_build,51.0139039,-2.1841189,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"52, Salisbury Street, SP7 8EJ",SP7 8EJ,365000,,freehold,old_stock,51.0049815,-2.1919769,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"14, Border Close, SP7 8TS",SP7 8TS,395000,3,freehold,new_build,51.0172091,-2.1897967,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"40, Melbury Beacon View, SP7 8DG",SP7 8DG,415150,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"34, Melbury Beacon View, SP7 8DG",SP7 8DG,440000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-25,"29, Foxglove Crescent, SP7 8UF",SP7 8UF,450000,,freehold,new_build,51.0140728,-2.1838112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-25,"7, Catherine Court, Shrewton, SP3 4BT",SP3 4BT,277500,3,freehold,old_stock,51.1940483,-1.9035497,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-25,"8, The Limes, Shrewton, SP3 4BW",SP3 4BW,280000,,freehold,old_stock,51.1962304,-1.9018895,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-24,"Cornerstone, Bittles Green, Motcombe, SP7 9NX",SP7 9NX,620000,,freehold,old_stock,51.0245824,-2.2112246,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-24,"Chicklade Bottom Farm, Chicklade, SP3 5SZ",SP3 5SZ,670000,,freehold,old_stock,51.1074301,-2.0950449,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-23,"34, Wren Place, SP8 4WE",SP8 4WE,218000,,freehold,old_stock,51.0321822,-2.265444,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-23,"6, Ridgeway Road, SP8 4GH",SP8 4GH,300000,5,freehold,old_stock,51.045871,-2.2816322,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-23,"The Acacias, Stour Provost, SP8 5SB",SP8 5SB,550000,,freehold,old_stock,50.9941804,-2.2916506,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-22,"Willow View, 2, Rolls Bridge, SP8 4BB",SP8 4BB,517500,,freehold,old_stock,51.0401536,-2.2813744,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-22,"The Crown, 3, Church Street, Tisbury, SP3 6FD",SP3 6FD,224000,,leasehold,old_stock,51.0621897,-2.0823003,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-18,"Flat 8, Barnaby Mill, Barnaby Mead, SP8 4AD",SP8 4AD,112000,,leasehold,old_stock,51.03835,-2.2743286,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-18,"140, Maple Way, SP8 4RR",SP8 4RR,198000,,freehold,old_stock,51.0354165,-2.28489,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-18,"Sycamore Bay, 3, Waverland Terrace, SP8 4NT",SP8 4NT,210000,,freehold,old_stock,51.0426823,-2.2816565,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-18,"4, Plantagenet Way, SP8 4TD",SP8 4TD,212000,,freehold,old_stock,51.0377116,-2.2908298,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-18,"6, Anglers Road, SP8 4YR",SP8 4YR,341275,,freehold,new_build,51.0305892,-2.267473,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"Flat 5, Cann Lodge, Salisbury Road, SP7 8ER",SP7 8ER,180000,,leasehold,old_stock,51.0009042,-2.1685532,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"55, Anstee Road, SP7 8GT",SP7 8GT,222000,,freehold,old_stock,51.0092586,-2.1822504,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"42, Trinity Road, SP7 8FZ",SP7 8FZ,290500,,freehold,old_stock,51.0054309,-2.1839024,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"12, Heathfields Way, SP7 9JZ",SP7 9JZ,325000,,freehold,old_stock,51.0145875,-2.1881041,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"Whitesheet House, Whitsans Cross, Donhead St Andrew, SP7 9LL",SP7 9LL,400000,,freehold,old_stock,51.0162702,-2.0997537,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"86, Linden Park, SP7 8RN",SP7 8RN,417000,,freehold,old_stock,51.0034637,-2.1825502,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"The Tallons, 3, Cann Common, SP7 0DL",SP7 0DL,475000,,freehold,old_stock,50.986812,-2.1661959,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"5, The Tynings, SP7 8QX",SP7 8QX,500000,,freehold,old_stock,50.9998083,-2.1855789,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-18,"65, Bimport, SP7 8BA",SP7 8BA,1000000,,freehold,old_stock,51.00442,-2.2031243,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-16,"14, Wessex Way, SP8 4LX",SP8 4LX,195000,2,freehold,old_stock,51.0437301,-2.2827079,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-15,"21, Bell Street, SP7 8AR",SP7 8AR,465000,,freehold,old_stock,51.0067494,-2.196547,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-15,"55, Church Street, Tisbury, SP3 6NH",SP3 6NH,345000,,freehold,old_stock,51.0619607,-2.0814126,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-14,"31, Wessex Way, SP8 4LX",SP8 4LX,230000,,freehold,old_stock,51.0446515,-2.2831211,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-11,"65, Cloverfields, SP8 4UR",SP8 4UR,230000,,freehold,old_stock,51.0484289,-2.2795859,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-11,"Knapp Corner Cottage, East Stour, SP8 5JS",SP8 5JS,301000,,freehold,old_stock,51.0107389,-2.2805284,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-11,"6, Maple Road, SP7 8FR",SP7 8FR,165000,,leasehold,old_stock,51.006876,-2.1806174,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-11,"6, Springfield Close, SP7 8RH",SP7 8RH,220000,3,freehold,old_stock,51.0122182,-2.1864212,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-11,"22, Homefield, Littledown, SP7 8DT",SP7 8DT,380000,,freehold,old_stock,51.0153573,-2.1910949,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-11,"15, London Road, Shrewton, SP3 4DN",SP3 4DN,235000,,freehold,old_stock,51.2003248,-1.8923722,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-10,"Pothecarys, High Street, SP8 4AA",SP8 4AA,213000,,freehold,old_stock,51.0374715,-2.2746407,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-10,"14, Foxglove Crescent, SP7 8UF",SP7 8UF,280276,,freehold,new_build,51.0139039,-2.1841189,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-10,"16, Foxglove Crescent, SP7 8UF",SP7 8UF,280276,,freehold,new_build,51.0140728,-2.1838112,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-09,"Ivydale Cottages, 3, Nett Road, Shrewton, SP3 4EZ",SP3 4EZ,265000,,freehold,old_stock,51.1907953,-1.8996537,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-08,"18, Jay Walk, SP8 4GQ",SP8 4GQ,227000,,freehold,old_stock,51.0315991,-2.2633087,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-04,"Flat 15, Nexus, Addison Close, SP8 4LR",SP8 4LR,106000,,leasehold,old_stock,51.0326065,-2.2708005,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-04,"61, Church View, SP8 4XE",SP8 4XE,232000,,freehold,old_stock,51.0357154,-2.2784446,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-04,"Bayford, Wyke Road, SP8 4NH",SP8 4NH,240000,,freehold,old_stock,51.0387017,-2.2861914,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-04,"40, Lakeside Drive, SP8 4YN",SP8 4YN,260400,,freehold,new_build,51.0306622,-2.2682441,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-04,"7, Victoria Road, SP8 4HY",SP8 4HY,295000,,freehold,old_stock,51.0364668,-2.2690204,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-04,"48, Ten Acres, SP7 8PW",SP7 8PW,230000,,freehold,old_stock,51.0099606,-2.1859383,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-04,"17, Homefield, Littledown, SP7 8DT",SP7 8DT,370000,,freehold,old_stock,51.0154367,-2.1920015,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-04,"The White Cottage, Miles Common, Semley, SP7 9JX",SP7 9JX,500000,,freehold,old_stock,51.0433241,-2.1896328,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-04,"11, Pembroke Fields, Dinton, SP3 5EE",SP3 5EE,300000,,freehold,old_stock,51.0827829,-1.9730213,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-04,"Lanes End, Hindon Road, Dinton, SP3 5EG",SP3 5EG,570000,,freehold,old_stock,51.0825208,-1.9736763,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-03,"Awebreeze, Peacemarsh, SP8 4HD",SP8 4HD,317500,,freehold,old_stock,51.0442886,-2.2792698,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-10-02,"Hillcrest, Hindon, SP3 6EG",SP3 6EG,1500000,,freehold,old_stock,51.0923575,-2.1254716,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-10-01,"4, Bridge Close, SP8 4LS",SP8 4LS,285000,,freehold,old_stock,51.0333219,-2.2650041,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-01,"12, Badger Walk, SP7 8FY",SP7 8FY,205000,,freehold,old_stock,51.0036861,-2.1799136,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-10-01,"22, Saxon Spur, SP7 8ED",SP7 8ED,220000,,freehold,old_stock,51.0111725,-2.1889025,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-30,"24, Meadowcroft, SP8 4SR",SP8 4SR,68500,,leasehold,old_stock,51.031924,-2.2707146,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-30,"2, Lyons Walk, SP7 8JF",SP7 8JF,164000,,leasehold,old_stock,51.0057741,-2.1980123,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-30,"5, The Thistles, SP7 8JH",SP7 8JH,300000,,freehold,new_build,51.0015076,-2.1805397,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-30,"15, Melbury Beacon View, SP7 8DG",SP7 8DG,330000,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-30,"27, Melbury Beacon View, SP7 8DG",SP7 8DG,406250,,freehold,new_build,50.9999885,-2.1794918,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-30,"7, Dunworth Rise, Tisbury, SP3 6UD",SP3 6UD,220500,,freehold,old_stock,51.0654875,-2.0843473,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-27,"22, Imber Road, SP7 8RX",SP7 8RX,173500,,freehold,old_stock,51.007512,-2.1839968,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-27,"28, Foxglove Crescent, SP7 8UF",SP7 8UF,250806,,freehold,new_build,51.0139039,-2.1841189,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-27,"Minera, Jenkins Corner, Donhead St Mary, SP7 9DD",SP7 9DD,975150,,freehold,old_stock,51.0207695,-2.142358,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-27,"Old Chapel, West Street, Barford St Martin, SP3 4AH",SP3 4AH,500000,,freehold,old_stock,51.0825559,-1.9220022,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-27,"The Crown, Orcheston, SP3 4RW",SP3 4RW,695000,,freehold,old_stock,51.2071255,-1.9160006,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-26,"27, Lockwood Terrace, SP8 4LQ",SP8 4LQ,150000,,freehold,old_stock,51.0308517,-2.2581904,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-26,"Knapp House, Fontmell Magna, SP7 0PA",SP7 0PA,1350000,,freehold,old_stock,51.0019269,-2.1873177,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-26,"22, Salisbury Road, Steeple Langford, SP3 4NF",SP3 4NF,370000,,freehold,old_stock,51.1363952,-1.947471,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-25,"32, Bay Road, SP8 4EF",SP8 4EF,209500,,freehold,old_stock,51.0418355,-2.2747012,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-25,"11, Cerne Avenue, SP8 4FW",SP8 4FW,275000,,freehold,old_stock,51.0319724,-2.2579682,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-25,"16, Windsor Lane, Wyke, SP8 4TG",SP8 4TG,285000,,freehold,old_stock,51.0362386,-2.290136,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-25,"15, Clarendon Close, SP8 4NL",SP8 4NL,425000,,freehold,old_stock,51.0366059,-2.2922663,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-25,"5, Chalk Hill, Shrewton, SP3 4EU",SP3 4EU,225000,,freehold,old_stock,51.1898633,-1.9009443,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-24,"102, Blackmore Road, SP7 8RL",SP7 8RL,205000,,freehold,old_stock,51.0125442,-2.182752,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-23,"The Willows, Wardour Lane, Donhead St Andrew, SP7 9EQ",SP7 9EQ,600000,,freehold,old_stock,51.0250151,-2.1168057,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-20,"5, Ivy Close, SP8 4UD",SP8 4UD,152000,1,freehold,old_stock,51.0400244,-2.288962,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-20,"Greenbanks, 6, Common Mead Lane, SP8 4RD",SP8 4RD,220000,,freehold,old_stock,51.0326645,-2.2881884,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-20,"2, The Bartons, SP7 8LN",SP7 8LN,165000,1,freehold,old_stock,51.0071686,-2.2047575,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-20,"8, Wincombe Lane, SP7 8PN",SP7 8PN,245000,3,freehold,old_stock,51.0100418,-2.1867187,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-20,"30a, St James Street, SP7 8HE",SP7 8HE,360000,,freehold,old_stock,51.0034374,-2.1988191,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-20,"1, Far View Road, Shrewton, SP3 4DQ",SP3 4DQ,162350,,freehold,old_stock,51.1981453,-1.8994165,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-20,"Ashbrook, Tisbury Road, Fovant, SP3 5JT",SP3 5JT,240000,,freehold,old_stock,51.059427,-1.9973543,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-19,"Corner Stones, Lower Street, Donhead St Andrew, SP7 9EE",SP7 9EE,760000,4,freehold,old_stock,51.0234809,-2.1197933,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-18,"Skatee House, Nett Road, Shrewton, SP3 4HB",SP3 4HB,4000,,freehold,old_stock,51.1928188,-1.8979747,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-18,"Inverie, High Street, Hindon, SP3 6DJ",SP3 6DJ,547350,,freehold,old_stock,51.0958137,-2.1307932,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-17,"15, Iris Gardens, SP8 4QY",SP8 4QY,325000,3,freehold,old_stock,51.0363125,-2.28391,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-17,"12, The Knapp, Enmore Green, SP7 8LT",SP7 8LT,315000,3,freehold,old_stock,51.0075979,-2.2086268,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-16,"2, Otter Springs, SP8 4GX",SP8 4GX,255000,,freehold,old_stock,51.0311974,-2.2621988,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-16,"38, Chaffinch Chase, SP8 4GT",SP8 4GT,377000,4,freehold,old_stock,51.031184,-2.2644741,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-13,"Whedan Farm House, Buckhorn Weston, SP8 5JF",SP8 5JF,500000,,freehold,old_stock,51.0142132,-2.3503833,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-13,"Church View, Church Close, Fontmell Magna, SP7 0NX",SP7 0NX,449000,,freehold,old_stock,50.9527764,-2.1932524,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-13,"Chapel House, The Green, East Knoyle, SP3 6BN",SP3 6BN,472000,,freehold,old_stock,51.0800273,-2.186045,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-13,"Waterdale, East Knoyle, SP3 6BL",SP3 6BL,1437000,,freehold,old_stock,51.0793775,-2.1815721,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-12,"15, Sylvan Way, SP8 4EQ",SP8 4EQ,215000,,freehold,old_stock,51.0437731,-2.2736547,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-12,"14, Chaffinch Chase, SP8 4GT",SP8 4GT,255000,3,freehold,old_stock,51.0306051,-2.2627761,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-12,"67, Linden Park, SP7 8RN",SP7 8RN,650000,,freehold,old_stock,51.003055,-2.1826555,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-12,"Cradle House, Luke Street, Berwick St John, SP7 0HQ",SP7 0HQ,1140000,,freehold,old_stock,50.9994359,-2.0807156,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-11,"20, Trinity Road, Shrewton, SP3 4DG",SP3 4DG,275000,3,freehold,old_stock,51.1972289,-1.8996036,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-11,"16, St Johns Close, Tisbury, SP3 6PN",SP3 6PN,324000,3,freehold,old_stock,51.0610902,-2.0846247,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-10,"11, Butts Knapp, SP7 8NW",SP7 8NW,275000,,freehold,old_stock,51.0026678,-2.1879554,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-10,"Church Farm Cottages, 1, Factory Lane, Barford St Martin, SP3 4AL",SP3 4AL,434000,,freehold,old_stock,51.0814931,-1.9209281,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-09,"Thyme Cottage, Peacemarsh, SP8 4ET",SP8 4ET,225000,3,freehold,old_stock,51.0433293,-2.2780944,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-09,"11, Cordery Gardens, SP8 4RJ",SP8 4RJ,242500,2,freehold,old_stock,51.0453387,-2.2785904,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-09,"6, Mampitts Lane, SP7 8GR",SP7 8GR,310000,3,freehold,old_stock,51.0055777,-2.1814788,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-09,"Chalkhill House, Chalk Hill, Shrewton, SP3 4EU",SP3 4EU,499950,,freehold,old_stock,51.1898786,-1.9012326,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-06,"Ivy Cottage, Dolphin Lane, SP8 4HQ",SP8 4HQ,298000,3,freehold,old_stock,51.0470064,-2.2795295,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-06,"22, Foxglove Crescent, SP7 8UF",SP7 8UF,283000,,freehold,new_build,51.0140997,-2.1838541,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-06,"9, Beaufoy Close, SP7 8PT",SP7 8PT,315000,3,freehold,old_stock,51.0075142,-2.1851181,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-05,"42, St Martins Close, Barford St Martin, SP3 4AX",SP3 4AX,272500,,freehold,old_stock,51.0856367,-1.9251805,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-09-04,"84, St James Street, SP7 8HF",SP7 8HF,149500,,freehold,old_stock,51.0026258,-2.2006838,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-09-03,"1, Greystones, Hindon, SP3 6DX",SP3 6DX,430000,,freehold,old_stock,51.0939399,-2.1271415,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-09-02,"73, Shreen Way, SP8 4EL",SP8 4EL,280000,2,freehold,old_stock,51.0455848,-2.2725136,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-30,"2, Deweys Way, SP8 4BW",SP8 4BW,261000,3,freehold,old_stock,51.041699,-2.2781041,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"28, Grosvenor Road, SP7 8DR",SP7 8DR,240000,3,freehold,old_stock,51.0133639,-2.1901652,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"10, Badger Walk, SP7 8FY",SP7 8FY,270000,,freehold,old_stock,51.0037491,-2.1797345,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"29, Wildflower Lane, SP7 8UA",SP7 8UA,332500,,freehold,new_build,51.0136073,-2.1824837,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"Wessex House, Unit 3, Wincombe Lane, SP7 8PJ",SP7 8PJ,1624000,,leasehold,old_stock,51.0090371,-2.1894785,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"Wessex House, Unit 2, Wincombe Lane, SP7 8PJ",SP7 8PJ,1624000,,leasehold,old_stock,51.0090371,-2.1894785,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-30,"Longmead Industrial Estate, Unit 8, Longmead, SP7 8PL",SP7 8PL,1624000,,leasehold,old_stock,51.0072605,-2.1870767,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-30,"10, Grosvenor Drive, Tisbury, SP3 6GS",SP3 6GS,97500,,freehold,old_stock,51.069824,-2.0866904,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-30,"Windrush House, The Wirr, Steeple Langford, SP3 4ND",SP3 4ND,560000,4,freehold,old_stock,51.1352757,-1.9466963,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-29,"59, Jay Walk, SP8 4GY",SP8 4GY,200000,2,leasehold,old_stock,51.0327396,-2.2636445,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-29,"Wild Cherry Tree Barn, East Orchard, SP7 0LH",SP7 0LH,70000,,freehold,old_stock,50.9461772,-2.23147,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-29,"The Old School House, Compton Abbas, SP7 0NL",SP7 0NL,360000,,freehold,old_stock,50.9804447,-2.1700032,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-28,"11, Win Green View, SP7 8SR",SP7 8SR,264000,,freehold,old_stock,51.0081157,-2.1853192,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-28,"23, Maple Road, SP7 8FR",SP7 8FR,272500,,freehold,old_stock,51.0071233,-2.1809018,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-28,"38, Fairlane, SP7 8RT",SP7 8RT,442500,,freehold,old_stock,51.0052832,-2.185764,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-28,"15, Pound Lane, SP7 8RZ",SP7 8RZ,470000,4,freehold,old_stock,51.006291,-2.1844463,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-28,"14, French Mill Lane, SP7 8EU",SP7 8EU,1110000,,freehold,old_stock,51.000545,-2.1935444,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-28,"45, St Martins Close, Barford St Martin, SP3 4AX",SP3 4AX,70000,,freehold,old_stock,51.0854473,-1.9242597,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-28,"Teffont Lodge, Teffont, SP3 5RR",SP3 5RR,430000,,freehold,old_stock,51.0814814,-1.9986432,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-27,"42, Bridge Close, SP8 4LS",SP8 4LS,265000,2,freehold,old_stock,51.0333219,-2.2650041,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-23,"Flat 2, Bracher House, Newbury, SP8 4QJ",SP8 4QJ,145000,,leasehold,old_stock,51.0364718,-2.2707774,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-23,"Flat 1, Bracher House, Newbury, SP8 4QJ",SP8 4QJ,145000,,leasehold,old_stock,51.0364718,-2.2707774,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-23,"15, Spinners Way, SP8 4YP",SP8 4YP,355000,,freehold,new_build,51.0311486,-2.2701067,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-23,"1, Barnaby Mead, SP8 4AL",SP8 4AL,417500,3,freehold,old_stock,51.037941,-2.2749,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-23,"32, Foxglove Crescent, SP7 8UF",SP7 8UF,249944,,freehold,new_build,51.0139039,-2.1841189,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-23,"20, Foxglove Crescent, SP7 8UF",SP7 8UF,299000,,freehold,new_build,51.0140997,-2.1838541,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-23,"40, St James Street, SP7 8HE",SP7 8HE,395000,,freehold,old_stock,51.0032455,-2.1993317,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-23,"The Little Elms, Elm Hill, Motcombe, SP7 9HR",SP7 9HR,950000,5,freehold,old_stock,51.0391156,-2.2188632,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-23,"Rosemary Cottage, 2, High Street, Hindon, SP3 6DJ",SP3 6DJ,360000,2,freehold,old_stock,51.0952021,-2.1301258,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-23,"The Little Cottage, Lower Chicksgrove, Tisbury, SP3 6NB",SP3 6NB,370000,,freehold,old_stock,51.0664886,-2.0395625,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-23,"White Lodge, Berwick St James, SP3 4TZ",SP3 4TZ,905000,,freehold,old_stock,51.1562412,-1.8896056,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-22,"11, Thurstin Way, SP8 4FN",SP8 4FN,315000,2,freehold,old_stock,51.0459004,-2.2756862,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-22,"9, Morrison Avenue, Tisbury, SP3 6GX",SP3 6GX,605000,4,freehold,old_stock,51.0678999,-2.0857494,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-22,"Cleeve House, Teffont Evias, SP3 5RE",SP3 5RE,1242986,,freehold,old_stock,51.0843846,-2.0174029,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-21,"Stour Hill House, Apartment 5, West Stour, SP8 5SE",SP8 5SE,185000,,leasehold,old_stock,50.9982691,-2.3298815,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-21,"Knapp Cottage, Vicarage Road, Tisbury, SP3 6HZ",SP3 6HZ,637000,,freehold,old_stock,51.0629587,-2.0845539,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-20,"46, The Meadows, SP8 4SP",SP8 4SP,191500,,freehold,old_stock,51.0319691,-2.268616,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP8,2024-08-20,"8, Wessex Way, SP8 4LX",SP8 4LX,235000,2,freehold,old_stock,51.0441927,-2.2829308,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-20,"Flat 9, Cann Lodge, Salisbury Road, SP7 8ER",SP7 8ER,170000,1,leasehold,old_stock,51.0033297,-2.1892647,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-20,"Summerhouse Cottage, The Street, Motcombe, SP7 9PE",SP7 9PE,735000,,freehold,old_stock,51.0276204,-2.2148218,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-20,"Acorns, Motcombe, SP7 9HJ",SP7 9HJ,795000,,freehold,old_stock,51.0345409,-2.2205392,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP3,2024-08-20,"Orchard House, Moor Hill, Fovant, SP3 5LB",SP3 5LB,930000,,freehold,old_stock,51.0625514,-2.0075052,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-19,"3, Willow Cottages, Compton Abbas, SP7 0NF",SP7 0NF,390000,3,freehold,old_stock,50.9672556,-2.1802938,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-19,"8, Sutton View, Fontmell Magna, SP7 0QN",SP7 0QN,540000,,freehold,new_build,50.9489458,-2.1923953,2026-02-16T14:24:08.993Z
+propertydata/sold-prices,SP7,2024-08-19,"Antioch Cottage, Donhead St Mary, SP7 9DJ",SP7 9DJ,1000000,,freehold,old_stock,51.0180647,-2.1331259,2026-02-16T14:24:08.993Z

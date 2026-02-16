@@ -1,0 +1,4 @@
+source,listing_id,address_line_1,address_line_2,postcode,town,listing_status,status_changed_at,first_seen_at,asking_price,bedrooms,property_type,source_url,ingest_ts
+propertydata,mock-001,12 Acorn Road,Flat 2,M1 1AA,Manchester,for_sale,2026-02-10T10:00:00Z,2026-02-01T09:00:00Z,285000,2,flat,https://example.com/listings/mock-001,2026-02-16T16:31:28.199Z
+propertydata,mock-002,48 Willow Street,,LS1 2BB,Leeds,under_offer,2026-02-12T14:30:00Z,2026-01-28T08:20:00Z,410000,3,terraced,https://example.com/listings/mock-002,2026-02-16T16:31:28.199Z
+propertydata,mock-003,7 Meadow View,Kings Norton,B30 3CC,Birmingham,sold_stc,2026-02-14T16:45:00Z,2026-01-20T11:05:00Z,525000,4,semi_detached,https://example.com/listings/mock-003,2026-02-16T16:31:28.199Z

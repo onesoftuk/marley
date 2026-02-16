@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# build outputs
+dist/
+coverage/
+.nyc_output/
+
+# logs
+*.log
+
+# secrets/keys
+*.key
+*.pem
+*.secret
+
+# python cache (cross-stack hygiene)
+__pycache__/
+
+# os
+.DS_Store
+brand/inbox/dropbox-bundle.zip
