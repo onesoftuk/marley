@@ -75,7 +75,8 @@ export function createDashboardServer(
 export async function startDashboardServer(
   options: DashboardServerOptions = {},
 ): Promise<HttpServer> {
-  const hostname = options.hostname ?? '127.0.0.1';
+  const fallbackHostname = process.env.DASHBOARD_HOST ?? process.env.HOST ?? '127.0.0.1';
+  const hostname = options.hostname ?? fallbackHostname;
   const fallbackPort = Number(process.env.DASHBOARD_PORT ?? '4177');
   const port = options.port ?? fallbackPort;
   const { server } = createDashboardServer(options);
