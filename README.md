@@ -27,6 +27,13 @@ Routes:
 - `GET /` — renders the dashboard UI with metric cards, tables, and refresh control.
 - `GET /dashboard` — returns the latest metrics/tables (cached until refreshed).
 - `POST /dashboard/refresh` — re-reads `data/sold-today.csv` and `data/sold-last-30-days.csv` from disk and returns the updated view (UI refresh button triggers this).
+- `POST /dashboard/propertydata-test` — runs a live PropertyData API pull with the provided filters (postcodes, min price, min bedrooms) and returns the filtered sample rows + summary.
+
+### Live PropertyData test panel
+1. Start the dashboard (`npm run dev dashboard`).
+2. Scroll to **PropertyData Live Test** on the page.
+3. Enter one or more postcodes/outcodes (comma or space separated), plus optional minimum price/bedrooms.
+4. Click **Run API Test** to hit the PropertyData API with the current key; the summary + JSON sample (max 25 rows) will render inline for quick validation.
 
 ### Regression checklist (Ticket B1)
 Follow this whenever you touch the dashboard so we keep API integrations untouched:

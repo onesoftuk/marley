@@ -125,6 +125,92 @@ export function renderDashboardPage(view: DashboardRouteView): string {
       margin-bottom: 24px;
     }
 
+    .api-test {
+      margin-bottom: 24px;
+      padding: 20px;
+      border-radius: 20px;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      box-shadow: 0 15px 35px rgba(15, 23, 42, 0.45);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .api-test h2 {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+
+    .api-test p {
+      margin: 4px 0 0;
+      color: #94a3b8;
+    }
+
+    .api-test-form {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      align-items: end;
+    }
+
+    .api-test-form label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.9rem;
+      color: #cbd5f5;
+    }
+
+    .api-test-form input {
+      border-radius: 12px;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      background: rgba(15, 23, 42, 0.6);
+      color: #f8fafc;
+      padding: 10px 12px;
+      font-size: 1rem;
+    }
+
+    .api-test-form button {
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: none;
+      background: #8b5cf6;
+      color: #0f172a;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 150ms ease, background 150ms ease;
+    }
+
+    .api-test-form button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .api-test-form button:not(:disabled):hover {
+      transform: translateY(-1px);
+      background: #7c3aed;
+    }
+
+    .api-test-status {
+      font-size: 0.9rem;
+      color: #94a3b8;
+      min-height: 1.2rem;
+    }
+
+    .api-test-output {
+      margin: 0;
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(2, 6, 23, 0.7);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      font-family: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+      font-size: 0.85rem;
+      max-height: 260px;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+
     .metric-card {
       border-radius: 16px;
       padding: 20px;
@@ -268,6 +354,29 @@ export function renderDashboardPage(view: DashboardRouteView): string {
       ${renderMetricCard('sold-today', 'Sold Today', view.metrics.soldTodayCount)}
       ${renderMetricCard('sold-last-30-days', 'Sold (Last 30 Days)', view.metrics.soldLast30DaysCount)}
     </section>
+    <section class="api-test">
+      <div>
+        <h2>PropertyData Live Test</h2>
+        <p>Trigger the API with custom filters before wiring the results into the export jobs.</p>
+      </div>
+      <form class="api-test-form" data-api-test-form>
+        <label>
+          Postcodes / Outcodes
+          <input name="postcodes" placeholder="SP8, SP7" />
+        </label>
+        <label>
+          Min Price (£)
+          <input name="minPrice" type="number" min="0" step="1000" placeholder="300000" />
+        </label>
+        <label>
+          Min Bedrooms
+          <input name="minBedrooms" type="number" min="1" step="1" placeholder="3" />
+        </label>
+        <button type="submit" data-api-test-button>Run API Test</button>
+      </form>
+      <div class="api-test-status" data-api-test-status></div>
+      <pre class="api-test-output" data-api-test-output>Awaiting test run.</pre>
+    </section>
     <section class="tables">
       ${renderTableCard(view.metrics.tables.soldToday)}
       ${renderTableCard(view.metrics.tables.soldLast30Days)}
@@ -305,6 +414,73 @@ export function renderDashboardPage(view: DashboardRouteView): string {
           refreshButton.textContent = original;
         }
       });
+    })();
+
+    (function () {
+      const form = document.querySelector('[data-api-test-form]');
+      if (!(form instanceof HTMLFormElement)) return;
+      const statusEl = document.querySelector('[data-api-test-status]');
+      const outputEl = document.querySelector('[data-api-test-output]');
+      const submitButton = form.querySelector('[data-api-test-button]');
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        if (!(submitButton instanceof HTMLButtonElement)) return;
+
+        const formData = new FormData(form);
+        const payload: Record<string, unknown> = {
+          postcodes: (formData.get('postcodes') ?? '').toString(),
+        };
+
+        const minPrice = toNumber(formData.get('minPrice'));
+        const minBedrooms = toNumber(formData.get('minBedrooms'));
+        if (minPrice !== null) {
+          payload.minPrice = minPrice;
+        }
+        if (minBedrooms !== null) {
+          payload.minBedrooms = minBedrooms;
+        }
+
+        submitButton.disabled = true;
+        if (statusEl) {
+          statusEl.textContent = 'Running live test…';
+        }
+        if (outputEl) {
+          outputEl.textContent = '';
+        }
+
+        try {
+          const response = await fetch('/dashboard/propertydata-test', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok || !data.ok) {
+            throw new Error(data?.error ?? 'Live test failed');
+          }
+          const summary = data.summary ?? { filteredRows: 0, totalRows: 0 };
+          if (statusEl) {
+            statusEl.textContent = 'Matched ' + summary.filteredRows + ' of ' + summary.totalRows + ' rows';
+          }
+          if (outputEl) {
+            outputEl.textContent = JSON.stringify(data.rows ?? [], null, 2);
+          }
+        } catch (error) {
+          console.error(error);
+          if (statusEl) {
+            statusEl.textContent = error instanceof Error ? error.message : 'Live test failed';
+          }
+        } finally {
+          submitButton.disabled = false;
+        }
+      });
+
+      function toNumber(value) {
+        if (value === null) return null;
+        const numeric = Number(value);
+        return Number.isFinite(numeric) ? numeric : null;
+      }
     })();
   </script>
 </body>

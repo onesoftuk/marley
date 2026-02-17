@@ -1,9 +1,10 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { mkdtemp, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import type { AddressInfo } from 'node:net';
 import { createDashboardServer } from '../src/dashboard/route.js';
+import * as propertydataTest from '../src/dashboard/propertydata-test.js';
 
 const HEADER =
   'source,outcode,sold_date,address,postcode,price,bedrooms,tenure,sale_class,lat,lng,ingest_ts';
@@ -85,6 +86,9 @@ async function listenDashboardServer(dataDir: string, clock?: () => Date) {
 }
 
 describe('dashboard HTTP server', () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
   it('serves the cached dashboard view over HTTP', async () => {
     await withTempDataDir(async (dir) => {
       await writeDataset(dir, 'sold-today.csv', [buildCsvRow()]);
@@ -171,6 +175,70 @@ describe('dashboard HTTP server', () => {
         const postRefreshPayload = await postRefreshResponse.json();
         expect(postRefreshPayload.view.metrics.soldTodayCount).toBe(2);
         expect(postRefreshPayload.view.metrics.tables.soldLast30Days.emptyState).toBeNull();
+      } finally {
+        await server.close();
+      }
+    });
+  });
+
+  it('proxies POST /dashboard/propertydata-test to the live test runner', async () => {
+    await withTempDataDir(async (dir) => {
+      await writeDataset(dir, 'sold-today.csv');
+      await writeDataset(dir, 'sold-last-30-days.csv');
+
+      const runSpy = vi.spyOn(propertydataTest, 'runPropertyDataTest').mockResolvedValue({
+        ok: true,
+        summary: {
+          totalRows: 2,
+          filteredRows: 1,
+          filters: { postcodes: ['SP8'], minPrice: null, minBedrooms: null },
+        },
+        rows: [],
+      });
+
+      const server = await listenDashboardServer(dir, () => new Date('2026-02-16T15:00:00.000Z'));
+
+      try {
+        const response = await fetch(`${server.url}/dashboard/propertydata-test`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ postcodes: 'SP8' }),
+        });
+
+        expect(response.status).toBe(200);
+        const payload = await response.json();
+        expect(payload.ok).toBe(true);
+        expect(payload.summary.filteredRows).toBe(1);
+        expect(runSpy).toHaveBeenCalledWith({ postcodes: ['SP8'], minPrice: null, minBedrooms: null });
+      } finally {
+        await server.close();
+      }
+    });
+  });
+
+  it('returns a 400 when the live test runner fails', async () => {
+    await withTempDataDir(async (dir) => {
+      await writeDataset(dir, 'sold-today.csv');
+      await writeDataset(dir, 'sold-last-30-days.csv');
+
+      vi.spyOn(propertydataTest, 'runPropertyDataTest').mockResolvedValue({
+        ok: false,
+        error: 'Missing API key',
+      });
+
+      const server = await listenDashboardServer(dir, () => new Date('2026-02-16T16:00:00.000Z'));
+
+      try {
+        const response = await fetch(`${server.url}/dashboard/propertydata-test`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ postcodes: 'SP8' }),
+        });
+
+        expect(response.status).toBe(400);
+        const payload = await response.json();
+        expect(payload.ok).toBe(false);
+        expect(payload.error).toContain('Missing API key');
       } finally {
         await server.close();
       }

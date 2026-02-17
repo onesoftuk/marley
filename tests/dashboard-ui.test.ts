@@ -187,4 +187,14 @@ describe('renderDashboardPage', () => {
     expect(refreshButton).toBeTruthy();
     expect(html).toContain("fetch('/dashboard/refresh'");
   });
+
+  it('renders the PropertyData live test form and endpoint wiring', () => {
+    const html = renderDashboardPage(makeView());
+    const { document } = parseHTML(html);
+
+    const form = document.querySelector('[data-api-test-form]');
+    expect(form).toBeTruthy();
+    expect(html).toContain('/dashboard/propertydata-test');
+    expect(html).toContain('Run API Test');
+  });
 });

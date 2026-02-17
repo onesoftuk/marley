@@ -5,6 +5,8 @@ import { readDashboardData } from './data.js';
 import { buildDashboardMetricsModel } from './service.js';
 import type { DashboardMetricsModel } from './service.js';
 import { renderDashboardPage } from './ui.js';
+import { runPropertyDataTest } from './propertydata-test.js';
+import type { PropertyDataTestFilters } from './propertydata-test.js';
 
 export interface DashboardRouteOptions {
   dataDir?: string;
@@ -132,7 +134,100 @@ async function handleRequest(
     return;
   }
 
+  if (method === 'POST' && url.pathname === '/dashboard/propertydata-test') {
+    try {
+      const payload = await readJsonBody(req);
+      const filters = parsePropertyDataFilters(payload);
+      const result = await runPropertyDataTest(filters);
+      const status = result.ok ? 200 : 400;
+      sendJson(res, status, result);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Invalid request payload';
+      sendJson(res, 400, { ok: false, error: message });
+    }
+    return;
+  }
+
   sendJson(res, 404, { error: 'Route not found' });
+}
+
+async function readJsonBody(req: IncomingMessage): Promise<unknown> {
+  const raw = await readRequestBody(req);
+  if (!raw) {
+    return {};
+  }
+
+  try {
+    return JSON.parse(raw);
+  } catch (error) {
+    throw new Error('Invalid JSON body');
+  }
+}
+
+async function readRequestBody(req: IncomingMessage): Promise<string> {
+  return new Promise<string>((resolve, reject) => {
+    const chunks: Buffer[] = [];
+
+    req
+      .on('data', (chunk) => {
+        if (Buffer.isBuffer(chunk)) {
+          chunks.push(chunk);
+        } else {
+          chunks.push(Buffer.from(chunk));
+        }
+      })
+      .on('end', () => {
+        resolve(Buffer.concat(chunks).toString('utf8'));
+      })
+      .on('error', (error) => {
+        reject(error);
+      });
+  });
+}
+
+function parsePropertyDataFilters(payload: unknown): PropertyDataTestFilters {
+  if (!payload || typeof payload !== 'object') {
+    return {};
+  }
+
+  const body = payload as Record<string, unknown>;
+  const rawPostcodes = body.postcodes;
+  let postcodes: string[] = [];
+
+  if (typeof rawPostcodes === 'string') {
+    postcodes = rawPostcodes.split(/[\s,]+/g);
+  } else if (Array.isArray(rawPostcodes)) {
+    postcodes = rawPostcodes.map((value) => (typeof value === 'string' ? value : String(value ?? '')));
+  }
+
+  return {
+    postcodes,
+    minPrice: parseNumberLike(body.minPrice),
+    minBedrooms: parseNumberLike(body.minBedrooms),
+  };
+}
+
+function parseNumberLike(value: unknown): number | null {
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value;
+  }
+
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    if (!trimmed) {
+      return null;
+    }
+
+    const normalized = trimmed.replace(/[^0-9.-]/g, '');
+    if (!normalized) {
+      return null;
+    }
+
+    const parsed = Number(normalized);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+
+  return null;
 }
 
 function enableCors(res: ServerResponse): void {
