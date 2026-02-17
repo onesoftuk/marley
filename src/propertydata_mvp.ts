@@ -21,13 +21,117 @@ export type NormalizedListing = {
 type PropertyDataRawListing = Record<string, unknown>;
 
 type PropertyDataApiResponse = {
+  properties?: PropertyDataRawListing[];
   listings?: PropertyDataRawListing[];
   data?: PropertyDataRawListing[];
   results?: PropertyDataRawListing[];
+  postcode?: string;
 };
 
 const DEFAULT_SOURCE = 'propertydata';
-const DEFAULT_ENDPOINT = 'https://api.propertydata.co.uk/v1/listings';
+const DEFAULT_ENDPOINT = 'https://api.propertydata.co.uk/sourced-properties';
+const DEFAULT_LIST_ID = 'repossessed-properties';
+const MILLISECONDS_PER_DAY = 86_400_000;
+
+
+function resolvePostcodes(input: string[], envValue?: string): string[] {
+  const normalizedInput = input.map((value) => normalizePostcode(value)).filter(Boolean);
+  const envPostcodes = parseEnvPostcodes(envValue);
+  const combined = [...normalizedInput, ...envPostcodes];
+  return Array.from(new Set(combined));
+}
+
+function parseEnvPostcodes(value?: string): string[] {
+  if (!value) {
+    return [];
+  }
+
+  return value
+    .split(new RegExp('[,\n]+'))
+    .map((token) => normalizePostcode(token))
+    .filter(Boolean);
+}
+
+function normalizePostcode(value: string): string {
+  return value.trim().toUpperCase();
+}
+
+function coerceNumber(explicit: number | undefined, envValue: string | undefined, fallback: number): number {
+  if (typeof explicit === 'number' && Number.isFinite(explicit)) {
+    return explicit;
+  }
+
+  if (typeof envValue === 'string' && envValue.trim()) {
+    const parsed = Number(envValue.trim());
+    if (Number.isFinite(parsed)) {
+      return parsed;
+    }
+  }
+
+  return fallback;
+}
+
+function coerceBooleanNumber(explicit: boolean | undefined, envValue: string | undefined, fallback: boolean): boolean {
+  if (typeof explicit === 'boolean') {
+    return explicit;
+  }
+
+  if (typeof envValue === 'string' && envValue.trim()) {
+    const token = envValue.trim().toLowerCase();
+    return token === '1' || token === 'true' || token === 'yes';
+  }
+
+  return fallback;
+}
+
+function enrichRawListing(raw: PropertyDataRawListing, ctx: { now: Date; sourcePostcode: string }): PropertyDataRawListing {
+  const status = resolveListingStatus(raw.sstc, raw.listing_status, raw.status);
+  const statusChangedAt = resolveRelativeIso(asNumber(raw.days_since_price_change), ctx.now);
+  const firstSeenAt = resolveRelativeIso(asNumber(raw.days_on_market), ctx.now);
+  const summary = asString(raw.summary ?? raw.description ?? '');
+
+  return {
+    ...raw,
+    address_line_1: firstNonEmptyString(raw.address_line_1, raw.address1, raw.street, raw.address),
+    address_line_2: summary,
+    postcode: firstNonEmptyString(raw.postcode, ctx.sourcePostcode),
+    listing_status: status,
+    status_changed_at: statusChangedAt,
+    first_seen_at: firstSeenAt,
+    asking_price: asNumber(raw.asking_price ?? raw.price),
+    bedrooms: asNumber(raw.bedrooms),
+    property_type: firstNonEmptyString(raw.property_type, raw.type),
+    source_url: firstNonEmptyString(raw.source_url, raw.url),
+    source_postcode: ctx.sourcePostcode,
+  };
+}
+
+function resolveListingStatus(...candidates: unknown[]): string {
+  for (const value of candidates) {
+    if (typeof value === 'number') {
+      return value === 1 ? 'sold_stc' : 'live';
+    }
+    if (typeof value === 'boolean') {
+      return value ? 'sold_stc' : 'live';
+    }
+    const asStr = asString(value);
+    if (asStr) {
+      return asStr;
+    }
+  }
+
+  return 'live';
+}
+
+function resolveRelativeIso(days: number | null, now: Date): string {
+  if (typeof days === 'number' && Number.isFinite(days)) {
+    const copy = new Date(now);
+    copy.setTime(copy.getTime() - days * MILLISECONDS_PER_DAY);
+    return copy.toISOString();
+  }
+
+  return now.toISOString();
+}
 
 function asString(value: unknown): string {
   if (typeof value === 'string') return value.trim();
@@ -83,47 +187,98 @@ export function normalizeListing(raw: PropertyDataRawListing, ingestTs: string):
 }
 
 function getRowsFromResponse(payload: PropertyDataApiResponse): PropertyDataRawListing[] {
+  if (Array.isArray(payload.properties)) return payload.properties;
   if (Array.isArray(payload.listings)) return payload.listings;
   if (Array.isArray(payload.data)) return payload.data;
   if (Array.isArray(payload.results)) return payload.results;
   return [];
 }
 
-export async function fetchPropertyDataListings(params: {
+export type PropertyDataFetchOptions = {
   endpoint?: string;
   apiKey?: string;
+  listId?: string;
+  postcodes?: string[];
+  radiusMiles?: number;
+  maxAgeDays?: number;
+  resultsPerPostcode?: number;
+  excludeSstc?: boolean;
   signal?: AbortSignal;
-} = {}): Promise<PropertyDataRawListing[]> {
-  const endpoint = params.endpoint ?? process.env.PROPERTYDATA_API_URL ?? DEFAULT_ENDPOINT;
-  const apiKey = params.apiKey ?? process.env.PROPERTYDATA_API_KEY;
+  now?: Date;
+};
+
+export async function fetchPropertyDataListings(options: PropertyDataFetchOptions = {}): Promise<PropertyDataRawListing[]> {
+  const endpoint = options.endpoint ?? process.env.PROPERTYDATA_API_URL ?? DEFAULT_ENDPOINT;
+  const apiKey = options.apiKey ?? process.env.PROPERTYDATA_API_KEY;
+  const listId = options.listId ?? process.env.PROPERTYDATA_LIST_ID ?? DEFAULT_LIST_ID;
+  const now = options.now ?? new Date();
 
   if (!apiKey) {
     throw new Error('Missing PROPERTYDATA_API_KEY environment variable.');
   }
 
-  const response = await fetch(endpoint, {
-    method: 'GET',
-    headers: {
-      Accept: 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-      'X-API-Key': apiKey,
-    },
-    signal: params.signal,
-  });
-
-  if (!response.ok) {
-    const bodyText = await response.text().catch(() => '');
-    throw new Error(`PropertyData API request failed (${response.status} ${response.statusText}): ${bodyText.slice(0, 300)}`);
+  const requestPostcodes = resolvePostcodes(options.postcodes ?? [], process.env.PROPERTYDATA_DEFAULT_POSTCODES);
+  if (requestPostcodes.length === 0) {
+    throw new Error('No PropertyData postcodes provided. Add them in the UI or set PROPERTYDATA_DEFAULT_POSTCODES.');
   }
 
-  const payload = (await response.json()) as PropertyDataApiResponse;
-  const rows = getRowsFromResponse(payload);
+  const radiusMiles = coerceNumber(options.radiusMiles, process.env.PROPERTYDATA_RADIUS_MILES, 15);
+  const maxAgeDays = coerceNumber(options.maxAgeDays, process.env.PROPERTYDATA_MAX_AGE_DAYS, 30);
+  const resultsPerPostcode = coerceNumber(options.resultsPerPostcode, process.env.PROPERTYDATA_MAX_RESULTS, 50);
+  const excludeSstc = coerceBooleanNumber(options.excludeSstc, process.env.PROPERTYDATA_EXCLUDE_SSTC, false);
 
-  if (!Array.isArray(rows)) {
-    throw new Error('PropertyData API response shape not recognized: expected array under listings/data/results.');
+  const combined: PropertyDataRawListing[] = [];
+  const seen = new Set<string>();
+
+  for (const postcode of requestPostcodes) {
+    const url = new URL(endpoint);
+    url.searchParams.set('key', apiKey);
+    url.searchParams.set('list', listId);
+    url.searchParams.set('postcode', postcode);
+    if (radiusMiles) url.searchParams.set('radius', String(radiusMiles));
+    if (maxAgeDays) url.searchParams.set('max_age', String(maxAgeDays));
+    if (resultsPerPostcode) url.searchParams.set('results', String(resultsPerPostcode));
+    url.searchParams.set('exclude_sstc', excludeSstc ? '1' : '0');
+
+    const response = await fetch(url.toString(), {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+        'X-API-Key': apiKey,
+      },
+      signal: options.signal,
+    });
+
+    if (!response.ok) {
+      const bodyText = await response.text().catch(() => '');
+      throw new Error(`PropertyData API request failed (${response.status} ${response.statusText}): ${bodyText.slice(0, 300)}`);
+    }
+
+    const payload = (await response.json()) as PropertyDataApiResponse;
+    const rows = getRowsFromResponse(payload);
+
+    if (!Array.isArray(rows)) {
+      throw new Error('PropertyData API response shape not recognized: expected array under properties/listings/data/results.');
+    }
+
+    for (const raw of rows) {
+      const listingId = firstNonEmptyString(raw.id, raw.listing_id, raw.listingId, raw.uid, raw.reference) || `${postcode}-${combined.length}`;
+      if (seen.has(listingId)) {
+        continue;
+      }
+
+      seen.add(listingId);
+      combined.push(
+        enrichRawListing(raw, {
+          now,
+          sourcePostcode: payload.postcode ?? postcode,
+        }),
+      );
+    }
   }
 
-  return rows;
+  return combined;
 }
 
 export function normalizeListings(rawListings: PropertyDataRawListing[], ingestTs = new Date().toISOString()): NormalizedListing[] {

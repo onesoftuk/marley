@@ -37,6 +37,8 @@ describe('propertydata entrypoint regressions', () => {
       vi.setSystemTime(new Date('2026-02-16T12:00:00.000Z'));
 
       process.env.PROPERTYDATA_API_KEY = 'test-key';
+      process.env.PROPERTYDATA_LIST_ID = 'test-list';
+      process.env.PROPERTYDATA_DEFAULT_POSTCODES = 'SP8 1AA';
       const apiRows = [
         {
           id: 'live-001',
@@ -76,6 +78,8 @@ describe('propertydata entrypoint regressions', () => {
   it('runPropertyDataMvp falls back to mock rows when live fetch fails', async () => {
     await withTempFile(async (file) => {
       process.env.PROPERTYDATA_API_KEY = 'test-key';
+      process.env.PROPERTYDATA_LIST_ID = 'test-list';
+      process.env.PROPERTYDATA_DEFAULT_POSTCODES = 'SP8 1AA';
       globalThis.fetch = vi.fn().mockRejectedValue(new Error('offline')); // force fetch failure
 
       const result = await propertydata.runPropertyDataMvp(file);
@@ -92,6 +96,8 @@ describe('propertydata entrypoint regressions', () => {
 
   it('fetchPropertyDataListings hits the PropertyData API with the current key', async () => {
     process.env.PROPERTYDATA_API_KEY = 'test-key';
+    process.env.PROPERTYDATA_LIST_ID = 'test-list';
+    process.env.PROPERTYDATA_DEFAULT_POSTCODES = 'SP8 1AA';
 
     const mockRows = [{ id: 'abc' }];
     const fetchMock = vi.fn().mockResolvedValue({
@@ -106,8 +112,15 @@ describe('propertydata entrypoint regressions', () => {
     const rows = await propertydata.fetchPropertyDataListings();
 
     expect(fetchMock).toHaveBeenCalledTimes(1);
-    expect(fetchMock).toHaveBeenCalledWith(
-      'https://api.propertydata.co.uk/v1/listings',
+    const [requestedUrl, init] = fetchMock.mock.calls[0];
+    expect(typeof requestedUrl).toBe('string');
+    const parsed = new URL(requestedUrl as string);
+    expect(parsed.origin + parsed.pathname).toBe('https://api.propertydata.co.uk/sourced-properties');
+    expect(parsed.searchParams.get('key')).toBe('test-key');
+    expect(parsed.searchParams.get('list')).toBe('test-list');
+    expect(parsed.searchParams.get('postcode')).toBe('SP8 1AA');
+
+    expect(init).toEqual(
       expect.objectContaining({
         method: 'GET',
         signal: undefined,
@@ -118,6 +131,11 @@ describe('propertydata entrypoint regressions', () => {
         }),
       }),
     );
-    expect(rows).toEqual(mockRows);
+    expect(rows).toEqual([
+      expect.objectContaining({
+        id: 'abc',
+        source_postcode: 'SP8 1AA',
+      }),
+    ]);
   });
 });

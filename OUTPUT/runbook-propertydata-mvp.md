@@ -34,10 +34,21 @@ Set the API key in your shell (do **not** commit secrets):
 export PROPERTYDATA_API_KEY="<your_propertydata_api_key>"
 ```
 
-Optional custom endpoint override:
+Provide at least one list + postcode target (comma-separated list when passing multiple):
 
 ```bash
-export PROPERTYDATA_API_URL="https://api.propertydata.co.uk/v1/listings"
+export PROPERTYDATA_LIST_ID="<propertydata_list_id>" # e.g. repossessed-properties
+export PROPERTYDATA_DEFAULT_POSTCODES="SP8 4AA, SP7 8AA"
+export PROPERTYDATA_RADIUS_MILES=15
+export PROPERTYDATA_MAX_AGE_DAYS=30
+export PROPERTYDATA_MAX_RESULTS=50
+export PROPERTYDATA_EXCLUDE_SSTC=0
+```
+
+Optional custom endpoint override (defaults to sourced-properties):
+
+```bash
+export PROPERTYDATA_API_URL="https://api.propertydata.co.uk/sourced-properties"
 ```
 
 ## 6) Run MVP ingestion scaffold

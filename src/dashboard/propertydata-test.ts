@@ -8,7 +8,7 @@ export interface PropertyDataTestFilters {
 }
 
 export interface PropertyDataTestDependencies {
-  fetchListings?: () => Promise<NormalizedListing[]>;
+  fetchListings?: (filters: PropertyDataTestFilters) => Promise<NormalizedListing[]>;
 }
 
 export interface PropertyDataTestSummary {
@@ -35,14 +35,14 @@ export async function runPropertyDataTest(
   deps: PropertyDataTestDependencies = {},
 ): Promise<PropertyDataTestResult> {
   try {
-    const fetchListings = deps.fetchListings ?? fetchNormalizedListings;
-    const listings = await fetchListings();
-
     const normalizedFilters = {
       postcodes: normalizePostcodes(filters.postcodes ?? []),
       minPrice: normalizeNumber(filters.minPrice),
       minBedrooms: normalizeNumber(filters.minBedrooms),
     } as const;
+
+    const fetchListings = deps.fetchListings ?? fetchNormalizedListings;
+    const listings = await fetchListings(filters);
 
     const filtered = listings.filter((row) => matchesFilters(row, normalizedFilters));
 
@@ -69,8 +69,8 @@ export async function runPropertyDataTest(
   }
 }
 
-async function fetchNormalizedListings(): Promise<NormalizedListing[]> {
-  const raw = await fetchPropertyDataListings();
+async function fetchNormalizedListings(filters: PropertyDataTestFilters): Promise<NormalizedListing[]> {
+  const raw = await fetchPropertyDataListings({ postcodes: filters.postcodes });
   return normalizeListings(raw);
 }
 
